@@ -1,0 +1,11 @@
+{
+  "notify": {
+    "enabled": true,
+    "emails": ["you@example.com"],
+    "smtp_host": "smtp.example.com",
+    "smtp_port": 465,
+    "smtp_user": "you@example.com",
+    "smtp_password": "your-smtp-password-or-app-code",
+    "smtp_security": "ssl"
+  }
+}

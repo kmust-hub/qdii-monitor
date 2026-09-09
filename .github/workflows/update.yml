@@ -2,8 +2,8 @@ name: Update QDII monitor data
 
 on:
   schedule:
-    # 每天 08:30 北京时间（00:30 UTC）自动抓取最新数据
-    - cron: '30 0 * * *'
+    # 每 12 小时自动抓取：08:30 / 20:30 北京时间（00:30 / 12:30 UTC）
+    - cron: '30 */12 * * *'
   workflow_dispatch: {}
   push:
     branches: [ main ]
@@ -23,6 +23,13 @@ jobs:
           python-version: '3.11'
 
       - name: Fetch latest QDII data
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_SECURITY: ${{ secrets.SMTP_SECURITY }}
+          NOTIFY_EMAILS: ${{ secrets.NOTIFY_EMAILS }}
         run: python collect.py --no-cache
 
       - name: Commit & push updated data

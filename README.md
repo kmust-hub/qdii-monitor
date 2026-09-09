@@ -32,16 +32,17 @@ python -m http.server 8000
 python collect.py             # 全量抓取（覆盖纳指100+标普500 全部场外指数基金）
 python collect.py --limit 5   # 只抓前 5 只，调试用
 python collect.py --no-cache  # 忽略缓存，强制重新抓取
+python collect.py --test-email # 用当前配置发送一封测试邮件（用于验证邮箱订阅）
 ```
 
 抓取完成后，在页面点击右上角「刷新」按钮即可看到最新数据。
 
 ## 定时自动更新
 
-Linux/macOS 用 cron，Windows 用任务计划程序即可。示例（每小时刷新一次）：
+Linux/macOS 用 cron，Windows 用任务计划程序即可。示例（每 12 小时刷新一次）：
 
 ```cron
-0 * * * * cd /path/to/qdii-monitor && python collect.py
+30 */12 * * * cd /path/to/qdii-monitor && python collect.py
 ```
 
 每次抓取会自动更新 `data/data.json`，页面「刷新」即可拿到最新。
@@ -53,10 +54,51 @@ Linux/macOS 用 cron，Windows 用任务计划程序即可。示例（每小时�
   近1月/近6月/近1年/近3年收益、成立以来收益、最新规模、
   代销平台每日限购金额、费用合计（申购费+管理费+托管费+销售服务费）、
   年化跟踪误差。
-- 自动更新：页面可按 1 小时 / 12 小时 / 24 小时自动重新拉取数据；
+- 自动更新：页面每 12 小时自动重新拉取数据；
   配合系统定时任务运行 `collect.py`，即可让 `data/data.json` 定时更新。
 - 状态历史：每只基金最近约 20 个交易日的申购/赎回状态，用于判断「近期变更」。
 - 注意：QDII 基金净值有 T+1 左右滞后；本工具仅供研究参考，不构成投资建议。
+
+## 邮箱订阅提醒（额度变化时邮件通知）
+
+当基金的「申购/赎回状态」或「单日限购额度」发生变化时，`collect.py` 会自动发送一封邮件提醒。
+有两种配置方式（优先读取 `config.json`，环境变量可覆盖）。
+
+### 方式一：本地 config.json（推荐本地运行）
+
+把 `config.example.json` 复制为 `config.json` 并填写：
+
+```json
+{
+  "notify": {
+    "enabled": true,
+    "emails": ["you@example.com"],
+    "smtp_host": "smtp.example.com",
+    "smtp_port": 465,
+    "smtp_user": "you@example.com",
+    "smtp_password": "授权码或密码",
+    "smtp_security": "ssl"
+  }
+}
+```
+
+- `smtp_security` 可选 `ssl` / `starttls` / `none`。
+- 用你的邮箱 SMTP 授权码填 `smtp_password`（QQ 邮箱 / 163 / Gmail 等在设置里生成授权码）。
+- 之后每次运行 `collect.py`，若上次到本次之间存在状态/额度变化，就会发送邮件。
+- 可用 `python collect.py --test-email` 发送一封测试邮件验证配置。
+
+> 注意：`config.json` 已在 `.gitignore` 中，不会被提交到仓库。
+
+### 方式二：GitHub Actions Secrets（部署到 GitHub Pages 时）
+
+在仓库 `Settings → Secrets and variables → Actions` 中添加以下 Secrets：
+
+- `SMTP_HOST`、`SMTP_PORT`、`SMTP_USER`、`SMTP_PASSWORD`、`SMTP_SECURITY`、`NOTIFY_EMAILS`（多个邮箱用逗号分隔）
+
+工作流 `update.yml` 已自动读取这些 Secrets，每当数据变化时发送提醒。
+
+> 页面顶栏的「✉ 订阅」按钮可输入邮箱并生成对应的 `config.json`，便于快速配置；
+> 订阅状态（是否启用、上次发送时间、最近变化数）会显示在弹窗里。
 
 ## 依赖
 
@@ -70,9 +112,9 @@ Linux/macOS 用 cron，Windows 用任务计划程序即可。示例（每小时�
 
 ### 方案一：GitHub Pages + Actions（推荐，完全免费且稳定）
 
-**自动更新**：仓库里的 `.github/workflows/update.yml` 每天定时用 GitHub Actions
+**自动更新**：仓库里的 `.github/workflows/update.yml` 每 12 小时定时用 GitHub Actions
 运行 `collect.py` 抓最新数据并提交到 `main`，GitHub Pages 会自动重新发布；
-页面本身也会按 1/12/24 小时自动刷新。
+页面本身也是每 12 小时自动刷新。
 
 步骤：
 ```bash
@@ -99,4 +141,4 @@ git push -u origin main
   免费档访问量有限，但用于个人监控足够。
 
 > 注意：纯静态托管不会“每隔几分钟重新跑抓取脚本”，数据是否更新取决于是否有
-> 定时任务（GitHub Actions 或平台 Cron）。本仓库已配好每天自动更新的 Actions。
+> 定时任务（GitHub Actions 或平台 Cron）。本仓库已配好每 12 小时自动更新的 Actions。

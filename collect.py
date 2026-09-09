@@ -17,6 +17,7 @@ import datetime
 import json
 import os
 import re
+import sys
 import time
 import urllib.request
 
@@ -24,6 +25,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 CACHE_FILE = os.path.join(DATA_DIR, "_cache.json")
 OUT_FILE = os.path.join(DATA_DIR, "data.json")
+CONFIG_FILE = os.path.join(BASE_DIR, "config.json")
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
@@ -284,11 +286,188 @@ def save_cache(c):
         json.dump(c, f, ensure_ascii=False, indent=1)
 
 
+def load_notify_config():
+    """加载邮件通知配置：优先读 config.json 的 notify 字段，环境变量可覆盖。
+
+    环境变量：NOTIFY_EMAILS、SMTP_HOST、SMTP_PORT、SMTP_USER、SMTP_PASSWORD、SMTP_SECURITY
+    """
+    cfg = {}
+    if os.path.exists(CONFIG_FILE):
+        try:
+            with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+                raw = json.load(f)
+            if isinstance(raw, dict):
+                cfg = raw.get("notify", {}) or {}
+        except Exception:  # noqa: BLE001
+            cfg = {}
+    env_map = {
+        "NOTIFY_EMAILS": "emails",
+        "SMTP_HOST": "smtp_host",
+        "SMTP_PORT": "smtp_port",
+        "SMTP_USER": "smtp_user",
+        "SMTP_PASSWORD": "smtp_password",
+        "SMTP_SECURITY": "smtp_security",
+    }
+    for envk, key in env_map.items():
+        v = os.environ.get(envk)
+        if not v:
+            continue
+        if key == "emails":
+            cfg[key] = [e.strip() for e in v.split(",") if e.strip()]
+        elif key == "smtp_port":
+            try:
+                cfg[key] = int(v)
+            except Exception:  # noqa: BLE001
+                pass
+        else:
+            cfg[key] = v
+    emails = cfg.get("emails") or []
+    if isinstance(emails, list) and emails:
+        cfg.setdefault("enabled", True)
+    else:
+        cfg["enabled"] = False
+    return cfg
+
+
+def fmt_amt(v):
+    """把限购金额格式化成人类可读：10元 / 1.5万 / 1.2亿。"""
+    if v in (None, "--", ""):
+        return "—"
+    try:
+        n = float(v)
+    except (TypeError, ValueError):
+        return str(v)
+    if n >= 1e8:
+        return ("%.1f" % (n / 1e8)).rstrip("0").rstrip(".") + "亿"
+    if n >= 1e4:
+        return ("%.1f" % (n / 1e4)).rstrip("0").rstrip(".") + "万"
+    return "%.0f元" % n
+
+
+def mask_email(e):
+    """脱敏邮箱，避免把完整地址提交到公开仓库。"""
+    e = (e or "").strip()
+    if not e:
+        return ""
+    if "@" in e:
+        local, dom = e.rsplit("@", 1)
+        return "%s***@%s" % (local[:1], dom)
+    return "%s***" % e[:1]
+
+
+def detect_changes(old_map, new_funds):
+    """对比上一次采集与本次采集，返回「额度/状态」发生变化的基金列表。"""
+    changes = []
+    for f in new_funds:
+        code = f["code"]
+        o = old_map.get(code)
+        if not o:
+            continue
+        items = []
+        if f.get("status") != o.get("status"):
+            items.append(("申购状态", o.get("status"), f.get("status")))
+        if f.get("redeem") != o.get("redeem"):
+            items.append(("赎回状态", o.get("redeem"), f.get("redeem")))
+        if f.get("limit_amount") != o.get("limit_amount"):
+            items.append(("单日限购", fmt_amt(o.get("limit_amount")), fmt_amt(f.get("limit_amount"))))
+        if items:
+            changes.append({"code": code, "name": f["name"], "items": items})
+    return changes
+
+
+def _esc(s):
+    return (str(s or "").replace("&", "&amp;").replace("<", "&lt;")
+            .replace(">", "&gt;").replace('"', "&quot;"))
+
+
+def build_email(changes):
+    """生成纯文本与 HTML 的提醒正文。"""
+    plain = ["QDII 基金额度变化提醒", "", "共 %d 只基金发生变化：" % len(changes), ""]
+    for c in changes:
+        plain.append("- %s（%s）" % (c["name"], c["code"]))
+        for field, old, new in c["items"]:
+            plain.append("    %s：%s → %s" % (field, old or "—", new or "—"))
+    plain.append("")
+    plain.append("数据来源：东方财富/天天基金公开接口。仅供研究参考，不构成投资建议。")
+    plain_text = "\n".join(plain)
+
+    rows = []
+    for c in changes:
+        for field, old, new in c["items"]:
+            rows.append(
+                "<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>" % (
+                    _esc(c["name"]), _esc(c["code"]), _esc(field),
+                    "<b>%s</b> → <b>%s</b>" % (_esc(old or "—"), _esc(new or "—"))))
+    html = (
+        "<h2>QDII 基金额度变化提醒</h2>"
+        "<p>共 <b>%d</b> 只基金发生变化：</p>"
+        "<table border=\"1\" cellpadding=\"6\" cellspacing=\"0\" style=\"border-collapse:collapse\">"
+        "<tr><th>基金</th><th>代码</th><th>项目</th><th>变化</th></tr>"
+        "%s</table>"
+        "<p style=\"color:#888;font-size:12px\">数据来源：东方财富/天天基金公开接口。"
+        "仅供研究参考，不构成投资建议。</p>"
+    ) % (len(changes), "".join(rows))
+    return {"plain": plain_text, "html": html}
+
+
+def send_email(cfg, subject, plain, html):
+    """通过 SMTP 发送邮件。返回 (ok, err)。"""
+    host = cfg.get("smtp_host")
+    user = cfg.get("smtp_user")
+    password = cfg.get("smtp_password")
+    emails = cfg.get("emails") or []
+    if not (host and user and password and emails):
+        return False, "缺少 SMTP 配置（smtp_host / smtp_user / smtp_password / emails）"
+    port = int(cfg.get("smtp_port") or 465)
+    security = (cfg.get("smtp_security") or "ssl").lower()
+    try:
+        import smtplib
+        from email.mime.text import MIMEText
+        from email.mime.multipart import MIMEMultipart
+    except Exception as e:  # noqa: BLE001
+        return False, "缺少 smtplib/email 模块：%s" % e
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = subject
+    msg["From"] = user
+    msg["To"] = ", ".join(emails)
+    msg.attach(MIMEText(plain, "plain", "utf-8"))
+    if html:
+        msg.attach(MIMEText(html, "html", "utf-8"))
+    try:
+        if security == "ssl":
+            s = smtplib.SMTP_SSL(host, port, timeout=25)
+        else:
+            s = smtplib.SMTP(host, port, timeout=25)
+            if security == "starttls":
+                s.starttls()
+        s.login(user, password)
+        s.sendmail(user, emails, msg.as_string())
+        try:
+            s.quit()
+        except Exception:  # noqa: BLE001
+            pass
+        return True, "sent"
+    except Exception as e:  # noqa: BLE001
+        return False, str(e)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--no-cache", action="store_true")
+    ap.add_argument("--no-email", action="store_true",
+                    help="即使已在 config.json 配置邮件通知，本次也不发送")
+    ap.add_argument("--test-email", action="store_true",
+                    help="用当前配置发送一封测试邮件后退出")
     args = ap.parse_args()
+
+    notify_cfg = load_notify_config()
+    if args.test_email:
+        ok, err = send_email(notify_cfg, "QDII 监控测试邮件",
+                             "这是一封来自 QDII 监控的测试邮件。",
+                             "<p>这是一封来自 <b>QDII 监控</b> 的测试邮件。</p>")
+        print("测试邮件:", "OK" if ok else "失败：%s" % err)
+        return 0 if ok else 1
 
     cache = {} if args.no_cache else load_cache()
     meta = fetch_fund_list()
@@ -403,6 +582,34 @@ def main():
 
     funds.sort(key=lambda f: (f["index_key"], f["name"]))
     now = time.strftime("%Y-%m-%d %H:%M:%S")
+
+    # 对比上次采集，检测申购/赎回状态或单日限购额度的变化，并发送邮件提醒
+    old_map = {c: {"status": p.get("status"), "redeem": p.get("redeem"),
+                   "limit_amount": p.get("limit_amount"), "name": p.get("name")}
+               for c, p in prev_map.items()}
+    diff = detect_changes(old_map, funds)
+    notify_state = {
+        "enabled": bool(notify_cfg.get("enabled") and not args.no_email),
+        "emails": [mask_email(x) for x in (notify_cfg.get("emails") or [])],
+        "last_checked": now,
+        "last_sent": None,
+        "last_error": None,
+        "last_change_count": len(diff),
+    }
+    if notify_state["enabled"] and diff and not args.limit:
+        subject = "QDII 额度变化提醒：%d 只基金" % len(diff)
+        body = build_email(diff)
+        ok, err = send_email(notify_cfg, subject, body["plain"], body["html"])
+        notify_state["last_sent"] = now if ok else None
+        notify_state["last_error"] = None if ok else err
+        print("邮件通知:", "OK" if ok else "失败：%s" % err)
+    elif args.limit:
+        print("邮件通知: 本次为 --limit 部分抓取，跳过发送")
+    elif notify_state["enabled"]:
+        print("邮件通知: 已启用，本次无变化（不发送）")
+    else:
+        print("邮件通知: 未配置（跳过）")
+
     data = {
         "generated_at": now,
         "updated_at": now,
@@ -410,6 +617,7 @@ def main():
         "fund_count": len(funds),
         "funds": funds,
         "recent_changes": changes[:80],
+        "notify": notify_state,
     }
     os.makedirs(DATA_DIR, exist_ok=True)
     with open(OUT_FILE, "w", encoding="utf-8") as f:
@@ -421,4 +629,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

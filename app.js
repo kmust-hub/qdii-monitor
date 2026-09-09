@@ -41,6 +41,7 @@
     hidden: new Set(loadHidden()),
     timer: null,
     changes: [],
+    notify: null,
     dragKey: null,
   };
 
@@ -280,8 +281,10 @@
       const d = await res.json();
       state.funds = d.funds || [];
       state.changes = d.recent_changes || [];
+      state.notify = d.notify || null;
       state.updatedAt = d.updated_at || d.generated_at;
       renderAll();
+      if (!$("#subModal").hidden) renderSubStatus();
     } catch (e) {
       $("#updatedAt").textContent = "加载失败，请用本地服务器打开（见 README）";
       $("#updatedAt").classList.add("updated-fail");
@@ -294,11 +297,11 @@
     localStorage.setItem("theme", state.theme);
   }
 
+  const AUTO_MS = 12 * 60 * 60 * 1000; // 12 小时
   function startAuto() {
-    const ms = parseInt($("#freq").value, 10) || 3600000;
     clearInterval(state.timer);
-    state.timer = setInterval(load, ms);
-    $("#updatedAt").title = "每 " + ($("#freq").selectedOptions[0].text) + " 自动刷新一次";
+    state.timer = setInterval(load, AUTO_MS);
+    $("#updatedAt").title = "每 12 小时自动刷新一次";
   }
 
   // events
@@ -370,11 +373,86 @@
     }
   });
 
-  const savedFreq = localStorage.getItem("freq");
-  if (savedFreq) $("#freq").value = savedFreq;
-  $("#freq").addEventListener("change", () => {
-    localStorage.setItem("freq", $("#freq").value);
-    startAuto();
+  // ---- 邮箱订阅 ----
+  const SUB_EMAIL_KEY = "notifyEmail";
+  function buildSubConfig(email) {
+    const em = email ? JSON.stringify(email) : '"you@example.com"';
+    return `{
+  "notify": {
+    "enabled": true,
+    "emails": [${em}],
+    "smtp_host": "smtp.example.com",
+    "smtp_port": 465,
+    "smtp_user": "you@example.com",
+    "smtp_password": "your-smtp-password-or-app-code",
+    "smtp_security": "ssl"
+  }
+}`;
+  }
+  function renderSubStatus() {
+    const n = state.notify || {};
+    const mail = $("#subEmail").value.trim();
+    const parts = [];
+    if (mail) parts.push(`本浏览器已记录：<b>${esc(mail)}</b>`);
+    if (n.enabled) {
+      parts.push(`服务端已启用，接收 <b>${(n.emails && n.emails.length) ? n.emails.map(esc).join("、") : "?"}</b>`);
+      parts.push(`上次检查 <b>${esc(n.last_checked || "—")}</b>`);
+      if (n.last_sent) parts.push(`上次发送 <b>${esc(n.last_sent)}</b>（${n.last_change_count || 0} 处变化）`);
+      if (n.last_error) parts.push(`<span class="warn-text">上次发送失败：${esc(n.last_error)}</span>`);
+    } else {
+      parts.push('服务端尚未配置邮件，需按下方说明开启后才会真正发送提醒。');
+    }
+    $("#subStatus").innerHTML = parts.join("<br>");
+  }
+  function openSub() {
+    const el = $("#subEmail");
+    if (!el.value) el.value = localStorage.getItem(SUB_EMAIL_KEY) || "";
+    el.classList.remove("input-err");
+    $("#subConfig").textContent = buildSubConfig(el.value.trim());
+    renderSubStatus();
+    $("#subModal").hidden = false;
+    el.focus();
+  }
+  function closeSub() { $("#subModal").hidden = true; }
+
+  $("#subBtn").addEventListener("click", openSub);
+  $("#subClose").addEventListener("click", closeSub);
+  $("#subModal").addEventListener("click", (e) => { if (e.target === $("#subModal")) closeSub(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !$("#subModal").hidden) closeSub(); });
+
+  $("#subSave").addEventListener("click", () => {
+    const v = $("#subEmail").value.trim();
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v)) {
+      $("#subEmail").classList.add("input-err");
+      $("#subEmail").focus();
+      return;
+    }
+    localStorage.setItem(SUB_EMAIL_KEY, v);
+    $("#subEmail").classList.remove("input-err");
+    $("#subConfig").textContent = buildSubConfig(v);
+    renderSubStatus();
+  });
+  $("#subUnsub").addEventListener("click", () => {
+    localStorage.removeItem(SUB_EMAIL_KEY);
+    $("#subEmail").value = "";
+    $("#subConfig").textContent = buildSubConfig("");
+    renderSubStatus();
+  });
+  $("#subEmail").addEventListener("input", () => {
+    $("#subEmail").classList.remove("input-err");
+    $("#subConfig").textContent = buildSubConfig($("#subEmail").value.trim());
+  });
+  $("#subCopy").addEventListener("click", async () => {
+    const txt = $("#subConfig").textContent;
+    try {
+      await navigator.clipboard.writeText(txt);
+      $("#subCopy").textContent = "已复制 ✓";
+      setTimeout(() => { $("#subCopy").textContent = "复制配置"; }, 1200);
+    } catch (e) {
+      const ta = $("#subConfig");
+      ta.select();
+      document.execCommand("copy");
+    }
   });
 
   applyTheme();

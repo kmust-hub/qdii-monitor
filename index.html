@@ -17,13 +17,8 @@
     </div>
     <div class="top-actions">
       <span class="updated" id="updatedAt">—</span>
-      <label class="freq">更新频率
-        <select id="freq">
-          <option value="3600000">1小时</option>
-          <option value="43200000">12小时</option>
-          <option value="86400000">24小时</option>
-        </select>
-      </label>
+      <span class="freq-static" title="每 12 小时自动重新拉取数据（配合定时任务运行 collect.py）">每12小时更新</span>
+      <button class="btn ghost" id="subBtn" title="邮箱订阅：额度/状态变化时邮件提醒">✉ 订阅</button>
       <button class="btn ghost" id="refreshBtn" title="重新加载数据">刷新</button>
       <button class="btn ghost" id="themeBtn" title="切换主题">◐</button>
     </div>
@@ -71,6 +66,39 @@
   </footer>
 
   <div class="legend" id="legend"></div>
+
+  <!-- 邮箱订阅弹窗 -->
+  <div class="modal-overlay" id="subModal" hidden>
+    <div class="modal">
+      <div class="modal-head">
+        <h2>邮箱订阅</h2>
+        <button class="modal-x" id="subClose" title="关闭">✕</button>
+      </div>
+      <div class="modal-body">
+        <p class="sub-desc">当基金的<b>申购/赎回状态</b>或<b>单日限购额度</b>发生变化时，自动向你的邮箱发送提醒。</p>
+        <div class="sub-row">
+          <label for="subEmail">接收邮箱</label>
+          <input id="subEmail" type="email" placeholder="you@example.com" autocomplete="off" />
+        </div>
+        <div class="sub-actions">
+          <button class="btn primary" id="subSave">保存订阅</button>
+          <button class="btn ghost" id="subUnsub">取消订阅</button>
+        </div>
+        <div class="sub-status" id="subStatus"></div>
+
+        <details class="sub-config">
+          <summary>如何真正开启邮件提醒？（需要后端配置）</summary>
+          <p>网页本身是静态页面、无法直接发邮件。邮件由 <code>collect.py</code> 在本地或定时任务运行时发送：
+            把下面的 <code>config.json</code> 保存到项目根目录，填入你的 SMTP 账号，再重新运行 <code>collect.py</code> 即可。
+            使用 GitHub Actions 时，可在仓库 <code>Settings → Secrets and variables → Actions</code> 中配置
+            <code>SMTP_HOST、SMTP_PORT、SMTP_USER、SMTP_PASSWORD、SMTP_SECURITY、NOTIFY_EMAILS</code>。</p>
+          <pre id="subConfig"></pre>
+          <button class="btn ghost" id="subCopy">复制配置</button>
+        </details>
+      </div>
+    </div>
+  </div>
+
   <script src="app.js"></script>
 </body>
 </html>
