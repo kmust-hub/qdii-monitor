@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-09 00:52:42",
-  "updated_at": "2026-09-09 00:52:42",
+  "generated_at": "2026-09-09 07:40:49",
+  "updated_at": "2026-09-09 07:40:49",
   "source": "公开基金数据接口（东方财富 / 天天基金）",
   "fund_count": 80,
   "funds": [
@@ -5093,10 +5093,10 @@
       "nav": 3.3396,
       "nav_date": "2026-09-04",
       "nav_chg": 0.21,
-      "return_1m": -0.75,
-      "return_6m": 16.35,
-      "return_1y": 16.39,
-      "return_3y": 74.88,
+      "return_1m": -0.78,
+      "return_6m": 14.28,
+      "return_1y": 16.5,
+      "return_3y": 73.04,
       "return_since": 93.1,
       "inception_date": "2021-09-22",
       "fund_size": 12.88,
@@ -7375,10 +7375,10 @@
       "name": "华夏标普500ETF发起式联接(QDII)A(人民币)",
       "index_key": "sp500",
       "status": "暂停",
-      "redeem": "暂停",
-      "nav": 1.7102,
-      "nav_date": "2026-09-07",
-      "nav_chg": -0.01,
+      "redeem": "开放",
+      "nav": 1.7007,
+      "nav_date": "2026-09-08",
+      "nav_chg": -0.56,
       "return_1m": -0.89,
       "return_6m": 11.53,
       "return_1y": 11.95,
@@ -7396,6 +7396,11 @@
       "tracking_error": 2.18,
       "history": [
         {
+          "date": "2026-09-08",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-09-07",
           "status": "暂停",
           "redeem": "暂停"
@@ -7489,11 +7494,6 @@
           "date": "2026-08-12",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-08-11",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -7502,15 +7502,15 @@
       "name": "华夏标普500ETF发起式联接(QDII)A(美元)",
       "index_key": "sp500",
       "status": "暂停",
-      "redeem": "暂停",
-      "nav": 0.2548,
-      "nav_date": "2026-09-07",
-      "nav_chg": -0.04,
-      "return_1m": -0.35,
-      "return_6m": 14.62,
-      "return_1y": 19.07,
-      "return_3y": 66.1,
-      "return_since": 75.0,
+      "redeem": "开放",
+      "nav": 0.2534,
+      "nav_date": "2026-09-08",
+      "nav_chg": -0.55,
+      "return_1m": -0.9,
+      "return_6m": 13.99,
+      "return_1y": 18.14,
+      "return_3y": 65.19,
+      "return_since": 74.04,
       "inception_date": "2023-05-21",
       "fund_size": 3.19,
       "fund_size_date": "2026-06-30",
@@ -7523,6 +7523,11 @@
       "tracking_error": 0.66,
       "history": [
         {
+          "date": "2026-09-08",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-09-07",
           "status": "暂停",
           "redeem": "暂停"
@@ -7616,11 +7621,6 @@
           "date": "2026-08-12",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-08-11",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -7629,10 +7629,10 @@
       "name": "华夏标普500ETF发起式联接(QDII)C",
       "index_key": "sp500",
       "status": "暂停",
-      "redeem": "暂停",
-      "nav": 1.6932,
-      "nav_date": "2026-09-07",
-      "nav_chg": -0.01,
+      "redeem": "开放",
+      "nav": 1.6838,
+      "nav_date": "2026-09-08",
+      "nav_chg": -0.56,
       "return_1m": -0.92,
       "return_6m": 11.36,
       "return_1y": 11.62,
@@ -7650,6 +7650,11 @@
       "tracking_error": 2.19,
       "history": [
         {
+          "date": "2026-09-08",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-09-07",
           "status": "暂停",
           "redeem": "暂停"
@@ -7741,11 +7746,6 @@
         },
         {
           "date": "2026-08-12",
-          "status": "暂停",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-08-11",
           "status": "暂停",
           "redeem": "开放"
         }
@@ -10167,6 +10167,30 @@
   ],
   "recent_changes": [
     {
+      "date": "2026-09-08",
+      "field": "redeem",
+      "old_val": "暂停",
+      "new_val": "开放",
+      "code": "018066",
+      "name": "华夏标普500ETF发起式联接(QDII)A(美元)"
+    },
+    {
+      "date": "2026-09-08",
+      "field": "redeem",
+      "old_val": "暂停",
+      "new_val": "开放",
+      "code": "018065",
+      "name": "华夏标普500ETF发起式联接(QDII)C"
+    },
+    {
+      "date": "2026-09-08",
+      "field": "redeem",
+      "old_val": "暂停",
+      "new_val": "开放",
+      "code": "018064",
+      "name": "华夏标普500ETF发起式联接(QDII)A(人民币)"
+    },
+    {
       "date": "2026-09-07",
       "field": "status",
       "old_val": "限大额",
@@ -10781,30 +10805,14 @@
       "new_val": "限大额",
       "code": "018044",
       "name": "天弘纳斯达克100指数发起(QDII)C"
-    },
-    {
-      "date": "2026-09-02",
-      "field": "status",
-      "old_val": "暂停",
-      "new_val": "限大额",
-      "code": "018043",
-      "name": "天弘纳斯达克100指数发起(QDII)A"
-    },
-    {
-      "date": "2026-08-19",
-      "field": "status",
-      "old_val": "暂停",
-      "new_val": "限大额",
-      "code": "160213",
-      "name": "国泰纳斯达克100指数"
-    },
-    {
-      "date": "2026-08-19",
-      "field": "status",
-      "old_val": "限大额",
-      "new_val": "暂停",
-      "code": "018738",
-      "name": "博时标普500ETF联接E(人民币)"
     }
-  ]
+  ],
+  "notify": {
+    "enabled": false,
+    "emails": [],
+    "last_checked": "2026-09-09 07:40:49",
+    "last_sent": null,
+    "last_error": null,
+    "last_change_count": 3
+  }
 }
