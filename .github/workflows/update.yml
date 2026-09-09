@@ -2,8 +2,8 @@ name: Update QDII monitor data
 
 on:
   schedule:
-    # 每 12 小时自动抓取：08:30 / 20:30 北京时间（00:30 / 12:30 UTC）
-    - cron: '30 */12 * * *'
+    # 每 6 小时自动抓取：08:30 / 14:30 / 20:30 / 02:30 北京时间（00:30 / 06:30 / 12:30 / 18:30 UTC）
+    - cron: '30 */6 * * *'
   workflow_dispatch: {}
   push:
     branches: [ main ]

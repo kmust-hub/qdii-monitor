@@ -42,6 +42,8 @@
     timer: null,
     changes: [],
     notify: null,
+    refreshMs: (() => 12 * 60 * 60 * 1000)(),
+    refreshLabel: "自动更新",
     dragKey: null,
   };
 
@@ -282,8 +284,14 @@
       state.funds = d.funds || [];
       state.changes = d.recent_changes || [];
       state.notify = d.notify || null;
+      if (typeof d.refresh_ms === "number" && d.refresh_ms >= 60000) {
+        state.refreshMs = d.refresh_ms;
+        state.refreshLabel = d.refresh_label ||
+          ("每" + Math.round(d.refresh_ms / 3600000) + "小时更新");
+      }
       state.updatedAt = d.updated_at || d.generated_at;
       renderAll();
+      applyRefresh();
       if (!$("#subModal").hidden) renderSubStatus();
     } catch (e) {
       $("#updatedAt").textContent = "加载失败，请用本地服务器打开（见 README）";
@@ -297,11 +305,12 @@
     localStorage.setItem("theme", state.theme);
   }
 
-  const AUTO_MS = 12 * 60 * 60 * 1000; // 12 小时
-  function startAuto() {
+  function applyRefresh() {
     clearInterval(state.timer);
-    state.timer = setInterval(load, AUTO_MS);
-    $("#updatedAt").title = "每 12 小时自动刷新一次";
+    state.timer = setInterval(load, state.refreshMs);
+    const lab = $("#refreshLabel");
+    if (lab) lab.textContent = state.refreshLabel;
+    $("#updatedAt").title = state.refreshLabel + "（数据由定时任务更新）";
   }
 
   // events
@@ -391,7 +400,7 @@
   }
   function renderSubStatus() {
     const n = state.notify || {};
-    const mail = $("#subEmail").value.trim();
+    const mail = ($("#subEmail").value || "").trim();
     const parts = [];
     if (mail) parts.push(`本浏览器已记录：<b>${esc(mail)}</b>`);
     if (n.enabled) {
@@ -456,6 +465,6 @@
   });
 
   applyTheme();
+  applyRefresh();
   load();
-  startAuto();
 })();

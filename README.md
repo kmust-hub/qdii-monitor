@@ -39,10 +39,10 @@ python collect.py --test-email # 用当前配置发送一封测试邮件（用�
 
 ## 定时自动更新
 
-Linux/macOS 用 cron，Windows 用任务计划程序即可。示例（每 12 小时刷新一次）：
+Linux/macOS 用 cron，Windows 用任务计划程序即可。示例（每 6 小时刷新一次）：
 
 ```cron
-30 */12 * * * cd /path/to/qdii-monitor && python collect.py
+30 */6 * * * cd /path/to/qdii-monitor && python collect.py
 ```
 
 每次抓取会自动更新 `data/data.json`，页面「刷新」即可拿到最新。
@@ -54,8 +54,9 @@ Linux/macOS 用 cron，Windows 用任务计划程序即可。示例（每 12 小
   近1月/近6月/近1年/近3年收益、成立以来收益、最新规模、
   代销平台每日限购金额、费用合计（申购费+管理费+托管费+销售服务费）、
   年化跟踪误差。
-- 自动更新：页面每 12 小时自动重新拉取数据；
-  配合系统定时任务运行 `collect.py`，即可让 `data/data.json` 定时更新。
+- 自动更新：更新时间由 `.github/workflows/update.yml` 的 `cron` 决定（当前每 6 小时）；
+  `collect.py` 会从该 `cron` 推导出 `refresh_ms` / `refresh_label` 写入 `data.json`，
+  页面据此自动同步刷新频率与显示文案。**只需修改 `update.yml` 的 `cron` 一处即可改更新时间。**
 - 状态历史：每只基金最近约 20 个交易日的申购/赎回状态，用于判断「近期变更」。
 - 注意：QDII 基金净值有 T+1 左右滞后；本工具仅供研究参考，不构成投资建议。
 
@@ -112,9 +113,9 @@ Linux/macOS 用 cron，Windows 用任务计划程序即可。示例（每 12 小
 
 ### 方案一：GitHub Pages + Actions（推荐，完全免费且稳定）
 
-**自动更新**：仓库里的 `.github/workflows/update.yml` 每 12 小时定时用 GitHub Actions
+**自动更新**：仓库里的 `.github/workflows/update.yml` 每 6 小时定时用 GitHub Actions
 运行 `collect.py` 抓最新数据并提交到 `main`，GitHub Pages 会自动重新发布；
-页面本身也是每 12 小时自动刷新。
+页面的刷新频率与显示文案会随 `data.json` 里的 `refresh_ms` / `refresh_label` 自动同步（与 `cron` 一致）。
 
 步骤：
 ```bash
@@ -141,4 +142,4 @@ git push -u origin main
   免费档访问量有限，但用于个人监控足够。
 
 > 注意：纯静态托管不会“每隔几分钟重新跑抓取脚本”，数据是否更新取决于是否有
-> 定时任务（GitHub Actions 或平台 Cron）。本仓库已配好每 12 小时自动更新的 Actions。
+> 定时任务（GitHub Actions 或平台 Cron）。本仓库已配好每 6 小时自动更新的 Actions。

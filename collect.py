@@ -355,6 +355,50 @@ def mask_email(e):
     return "%s***" % e[:1]
 
 
+def compute_refresh():
+    """从 .github/workflows/update.yml 的 cron 时间表达式推导前端刷新频率。
+
+    单点配置：只需修改 update.yml 的 cron，前端刷新间隔与显示文案会自动同步。
+    返回 (refresh_ms, refresh_label)。
+    """
+    default_ms = 12 * 3600 * 1000
+    default_label = "每12小时更新"
+    wf = os.path.join(BASE_DIR, ".github", "workflows", "update.yml")
+    try:
+        with open(wf, "r", encoding="utf-8") as f:
+            txt = f.read()
+    except Exception:  # noqa: BLE001
+        return default_ms, default_label
+    m = re.search(r"cron:\s*['\"]([^'\"]+)['\"]", txt)
+    if not m:
+        return default_ms, default_label
+    parts = m.group(1).strip().split()
+    if len(parts) != 5:
+        return default_ms, default_label
+    hour = parts[1]
+    if hour == "*":
+        hours = 1
+    elif hour.startswith("*/"):
+        try:
+            hours = int(hour[2:])
+        except ValueError:
+            return default_ms, default_label
+    elif re.fullmatch(r"\d+", hour):
+        hours = 24  # 每日一次
+    else:
+        return default_ms, default_label
+    if hours <= 0 or hours > 168:
+        return default_ms, default_label
+    ms = hours * 3600 * 1000
+    if hours == 1:
+        label = "每小时更新"
+    elif hours == 24:
+        label = "每日更新"
+    else:
+        label = "每%d小时更新" % hours
+    return ms, label
+
+
 def detect_changes(old_map, new_funds):
     """对比上一次采集与本次采集，返回「额度/状态」发生变化的基金列表。"""
     changes = []
@@ -582,6 +626,7 @@ def main():
 
     funds.sort(key=lambda f: (f["index_key"], f["name"]))
     now = time.strftime("%Y-%m-%d %H:%M:%S")
+    refresh_ms, refresh_label = compute_refresh()
 
     # 对比上次采集，检测申购/赎回状态或单日限购额度的变化，并发送邮件提醒
     old_map = {c: {"status": p.get("status"), "redeem": p.get("redeem"),
@@ -617,6 +662,8 @@ def main():
         "fund_count": len(funds),
         "funds": funds,
         "recent_changes": changes[:80],
+        "refresh_ms": refresh_ms,
+        "refresh_label": refresh_label,
         "notify": notify_state,
     }
     os.makedirs(DATA_DIR, exist_ok=True)
