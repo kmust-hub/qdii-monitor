@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-09 07:40:49",
-  "updated_at": "2026-09-09 07:40:49",
+  "generated_at": "2026-09-09 07:53:57",
+  "updated_at": "2026-09-09 07:53:57",
   "source": "公开基金数据接口（东方财富 / 天天基金）",
   "fund_count": 80,
   "funds": [
@@ -6232,10 +6232,10 @@
       "name": "易方达纳斯达克100ETF联接(QDII-LOF)A(人民币)",
       "index_key": "nasdaq100",
       "status": "暂停",
-      "redeem": "暂停",
-      "nav": 4.4529,
-      "nav_date": "2026-09-07",
-      "nav_chg": 0.02,
+      "redeem": "开放",
+      "nav": 4.4481,
+      "nav_date": "2026-09-08",
+      "nav_chg": -0.11,
       "return_1m": -0.65,
       "return_6m": 17.16,
       "return_1y": 17.61,
@@ -6252,6 +6252,11 @@
       "limit_amount": 10.0,
       "tracking_error": 1.44,
       "history": [
+        {
+          "date": "2026-09-08",
+          "status": "暂停",
+          "redeem": "开放"
+        },
         {
           "date": "2026-09-07",
           "status": "暂停",
@@ -6344,11 +6349,6 @@
         },
         {
           "date": "2026-08-12",
-          "status": "暂停",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-08-11",
           "status": "暂停",
           "redeem": "开放"
         }
@@ -10171,6 +10171,14 @@
       "field": "redeem",
       "old_val": "暂停",
       "new_val": "开放",
+      "code": "161130",
+      "name": "易方达纳斯达克100ETF联接(QDII-LOF)A(人民币)"
+    },
+    {
+      "date": "2026-09-08",
+      "field": "redeem",
+      "old_val": "暂停",
+      "new_val": "开放",
       "code": "018066",
       "name": "华夏标普500ETF发起式联接(QDII)A(美元)"
     },
@@ -10797,14 +10805,6 @@
       "new_val": "限大额",
       "code": "022525",
       "name": "天弘纳斯达克100指数发起(QDII)D"
-    },
-    {
-      "date": "2026-09-02",
-      "field": "status",
-      "old_val": "暂停",
-      "new_val": "限大额",
-      "code": "018044",
-      "name": "天弘纳斯达克100指数发起(QDII)C"
     }
   ],
   "refresh_ms": 21600000,
@@ -10812,9 +10812,9 @@
   "notify": {
     "enabled": false,
     "emails": [],
-    "last_checked": "2026-09-09 07:40:49",
+    "last_checked": "2026-09-09 07:53:57",
     "last_sent": null,
     "last_error": null,
-    "last_change_count": 3
+    "last_change_count": 1
   }
 }
