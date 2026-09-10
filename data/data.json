@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-10 00:53:22",
-  "updated_at": "2026-09-10 00:53:22",
+  "generated_at": "2026-09-10 07:00:41",
+  "updated_at": "2026-09-10 07:00:41",
   "source": "公开基金数据接口（东方财富 / 天天基金）",
   "fund_count": 80,
   "funds": [
@@ -7503,9 +7503,9 @@
       "index_key": "sp500",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 0.2534,
-      "nav_date": "2026-09-08",
-      "nav_chg": -0.55,
+      "nav": 0.2523,
+      "nav_date": "2026-09-09",
+      "nav_chg": -0.43,
       "return_1m": -0.9,
       "return_6m": 13.99,
       "return_1y": 18.14,
@@ -7522,6 +7522,11 @@
       "limit_amount": null,
       "tracking_error": 0.66,
       "history": [
+        {
+          "date": "2026-09-09",
+          "status": "暂停",
+          "redeem": "开放"
+        },
         {
           "date": "2026-09-08",
           "status": "暂停",
@@ -7614,11 +7619,6 @@
         },
         {
           "date": "2026-08-13",
-          "status": "暂停",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-08-12",
           "status": "暂停",
           "redeem": "开放"
         }
@@ -10812,7 +10812,7 @@
   "notify": {
     "enabled": false,
     "emails": [],
-    "last_checked": "2026-09-10 00:53:22",
+    "last_checked": "2026-09-10 07:00:41",
     "last_sent": null,
     "last_error": null,
     "last_change_count": 0
