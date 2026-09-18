@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-18 12:54:20",
-  "updated_at": "2026-09-18 12:54:20",
+  "generated_at": "2026-09-18 19:27:00",
+  "updated_at": "2026-09-18 19:27:00",
   "source": "公开基金数据接口（东方财富 / 天天基金）",
   "fund_count": 80,
   "funds": [
@@ -154,7 +154,7 @@
       "sales_fee": 0.2,
       "fee_total": 0.85,
       "limit_amount": 100.0,
-      "tracking_error": 2.15,
+      "tracking_error": 2.16,
       "history": [
         {
           "date": "2026-09-17",
@@ -281,7 +281,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.3,
       "limit_amount": 100.0,
-      "tracking_error": 2.44,
+      "tracking_error": 2.43,
       "history": [
         {
           "date": "2026-09-17",
@@ -408,7 +408,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.0,
       "limit_amount": null,
-      "tracking_error": 1.07,
+      "tracking_error": 1.08,
       "history": [
         {
           "date": "2026-09-17",
@@ -1043,7 +1043,7 @@
       "sales_fee": 0.2,
       "fee_total": 1.0,
       "limit_amount": 10.0,
-      "tracking_error": 0.99,
+      "tracking_error": 1.0,
       "history": [
         {
           "date": "2026-09-17",
@@ -1170,7 +1170,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.15,
       "limit_amount": 10.0,
-      "tracking_error": 1.56,
+      "tracking_error": 1.57,
       "history": [
         {
           "date": "2026-09-17",
@@ -1297,7 +1297,7 @@
       "sales_fee": 0.25,
       "fee_total": 0.9,
       "limit_amount": 10.0,
-      "tracking_error": 1.56,
+      "tracking_error": 1.57,
       "history": [
         {
           "date": "2026-09-17",
@@ -1424,7 +1424,7 @@
       "sales_fee": 0.1,
       "fee_total": 0.75,
       "limit_amount": 10.0,
-      "tracking_error": 1.56,
+      "tracking_error": 1.57,
       "history": [
         {
           "date": "2026-09-17",
@@ -1551,7 +1551,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.15,
       "limit_amount": 10.0,
-      "tracking_error": 1.42,
+      "tracking_error": 1.43,
       "history": [
         {
           "date": "2026-09-17",
@@ -1678,7 +1678,7 @@
       "sales_fee": 0.1,
       "fee_total": 0.75,
       "limit_amount": 10.0,
-      "tracking_error": 1.42,
+      "tracking_error": 1.43,
       "history": [
         {
           "date": "2026-09-17",
@@ -2059,7 +2059,7 @@
       "sales_fee": 0.0,
       "fee_total": 1.65,
       "limit_amount": null,
-      "tracking_error": 1.05,
+      "tracking_error": 1.06,
       "history": [
         {
           "date": "2026-09-17",
@@ -2186,7 +2186,7 @@
       "sales_fee": 0.3,
       "fee_total": 0.95,
       "limit_amount": null,
-      "tracking_error": 1.45,
+      "tracking_error": 1.46,
       "history": [
         {
           "date": "2026-09-17",
@@ -2440,7 +2440,7 @@
       "sales_fee": 0.15,
       "fee_total": 0.8,
       "limit_amount": null,
-      "tracking_error": 1.45,
+      "tracking_error": 1.46,
       "history": [
         {
           "date": "2026-09-17",
@@ -2567,7 +2567,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.1,
       "limit_amount": 100.0,
-      "tracking_error": 1.49,
+      "tracking_error": 1.5,
       "history": [
         {
           "date": "2026-09-17",
@@ -2821,7 +2821,7 @@
       "sales_fee": 0.25,
       "fee_total": 0.85,
       "limit_amount": 100.0,
-      "tracking_error": 1.49,
+      "tracking_error": 1.5,
       "history": [
         {
           "date": "2026-09-17",
@@ -2948,7 +2948,7 @@
       "sales_fee": 0.25,
       "fee_total": 0.85,
       "limit_amount": null,
-      "tracking_error": 1.17,
+      "tracking_error": 1.18,
       "history": [
         {
           "date": "2026-09-17",
@@ -3188,11 +3188,11 @@
       "nav": 4.458,
       "nav_date": "2026-09-17",
       "nav_chg": 1.57,
-      "return_1m": -3.9,
-      "return_6m": 15.26,
-      "return_1y": 13.38,
-      "return_3y": -31.89,
-      "return_since": 338.9,
+      "return_1m": -2.19,
+      "return_6m": 16.64,
+      "return_1y": 15.43,
+      "return_3y": -30.87,
+      "return_since": 345.8,
       "inception_date": "2010-04-28",
       "fund_size": 21.77,
       "fund_size_date": "2026-06-30",
@@ -3202,7 +3202,7 @@
       "sales_fee": null,
       "fee_total": 2.5,
       "limit_amount": 100.0,
-      "tracking_error": 1.09,
+      "tracking_error": 1.1,
       "history": [
         {
           "date": "2026-09-17",
@@ -3329,7 +3329,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.5,
       "limit_amount": 10.0,
-      "tracking_error": 1.0,
+      "tracking_error": 1.01,
       "history": [
         {
           "date": "2026-09-17",
@@ -3583,7 +3583,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.1,
       "limit_amount": 100.0,
-      "tracking_error": 1.46,
+      "tracking_error": 1.47,
       "history": [
         {
           "date": "2026-09-17",
@@ -3710,7 +3710,7 @@
       "sales_fee": 0.2,
       "fee_total": 0.8,
       "limit_amount": 100.0,
-      "tracking_error": 1.47,
+      "tracking_error": 1.48,
       "history": [
         {
           "date": "2026-09-17",
@@ -3964,7 +3964,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.15,
       "limit_amount": 200.0,
-      "tracking_error": 1.65,
+      "tracking_error": 1.66,
       "history": [
         {
           "date": "2026-09-17",
@@ -4091,7 +4091,7 @@
       "sales_fee": 0.25,
       "fee_total": 0.9,
       "limit_amount": 200.0,
-      "tracking_error": 1.65,
+      "tracking_error": 1.67,
       "history": [
         {
           "date": "2026-09-17",
@@ -4218,7 +4218,7 @@
       "sales_fee": 0.18,
       "fee_total": 1.18,
       "limit_amount": null,
-      "tracking_error": 1.02,
+      "tracking_error": 1.03,
       "history": [
         {
           "date": "2026-09-17",
@@ -4458,11 +4458,11 @@
       "nav": 7.975,
       "nav_date": "2026-09-17",
       "nav_chg": 1.66,
-      "return_1m": -4.19,
-      "return_6m": 13.78,
-      "return_1y": 11.62,
-      "return_3y": 69.22,
-      "return_since": 256.32,
+      "return_1m": -2.42,
+      "return_6m": 15.24,
+      "return_1y": 13.73,
+      "return_3y": 71.91,
+      "return_since": 262.22,
       "inception_date": "2018-10-24",
       "fund_size": 64.93,
       "fund_size_date": "2026-06-30",
@@ -4712,11 +4712,11 @@
       "nav": 1.1801,
       "nav_date": "2026-09-17",
       "nav_chg": 1.73,
-      "return_1m": -3.84,
-      "return_6m": 16.17,
-      "return_1y": 17.22,
-      "return_3y": 79.62,
-      "return_since": 265.7,
+      "return_1m": -2.0,
+      "return_6m": 17.6,
+      "return_1y": 19.5,
+      "return_3y": 82.48,
+      "return_since": 272.04,
       "inception_date": "2018-10-24",
       "fund_size": 64.93,
       "fund_size_date": "2026-06-30",
@@ -4966,11 +4966,11 @@
       "nav": 0.5079,
       "nav_date": "2026-09-17",
       "nav_chg": 1.6,
-      "return_1m": -3.31,
-      "return_6m": 16.34,
-      "return_1y": 17.35,
-      "return_3y": 85.22,
-      "return_since": 87.16,
+      "return_1m": -1.61,
+      "return_6m": 17.65,
+      "return_1y": 19.45,
+      "return_3y": 87.83,
+      "return_since": 90.15,
       "inception_date": "2021-09-22",
       "fund_size": 21.76,
       "fund_size_date": "2026-06-30",
@@ -5093,11 +5093,11 @@
       "nav": 3.3208,
       "nav_date": "2026-09-17",
       "nav_chg": 1.54,
-      "return_1m": -3.69,
-      "return_6m": 13.76,
-      "return_1y": 11.37,
-      "return_3y": 72.88,
-      "return_since": 89.1,
+      "return_1m": -2.05,
+      "return_6m": 15.13,
+      "return_1y": 13.32,
+      "return_3y": 75.32,
+      "return_since": 92.01,
       "inception_date": "2021-09-22",
       "fund_size": 12.88,
       "fund_size_date": "2026-06-30",
@@ -5220,11 +5220,11 @@
       "nav": 0.4914,
       "nav_date": "2026-09-17",
       "nav_chg": 1.61,
-      "return_1m": -3.34,
-      "return_6m": 16.17,
-      "return_1y": 16.98,
-      "return_3y": 83.53,
-      "return_since": 81.06,
+      "return_1m": -1.62,
+      "return_6m": 17.48,
+      "return_1y": 19.07,
+      "return_3y": 86.14,
+      "return_since": 83.98,
       "inception_date": "2021-09-22",
       "fund_size": 12.88,
       "fund_size_date": "2026-06-30",
@@ -5234,7 +5234,7 @@
       "sales_fee": 0.3,
       "fee_total": 1.3,
       "limit_amount": null,
-      "tracking_error": 1.99,
+      "tracking_error": 2.0,
       "history": [
         {
           "date": "2026-09-17",
@@ -5488,7 +5488,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.15,
       "limit_amount": 10.0,
-      "tracking_error": 1.73,
+      "tracking_error": 1.74,
       "history": [
         {
           "date": "2026-09-17",
@@ -5615,7 +5615,7 @@
       "sales_fee": 0.4,
       "fee_total": 1.05,
       "limit_amount": 10.0,
-      "tracking_error": 1.74,
+      "tracking_error": 1.75,
       "history": [
         {
           "date": "2026-09-17",
@@ -5742,7 +5742,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.1,
       "limit_amount": 10.0,
-      "tracking_error": 2.33,
+      "tracking_error": 2.34,
       "history": [
         {
           "date": "2026-09-17",
@@ -5869,7 +5869,7 @@
       "sales_fee": 0.3,
       "fee_total": 0.9,
       "limit_amount": 10.0,
-      "tracking_error": 2.32,
+      "tracking_error": 2.33,
       "history": [
         {
           "date": "2026-09-17",
@@ -6123,7 +6123,7 @@
       "sales_fee": 0.3,
       "fee_total": 0.9,
       "limit_amount": null,
-      "tracking_error": 2.11,
+      "tracking_error": 2.12,
       "history": [
         {
           "date": "2026-09-17",
@@ -6250,7 +6250,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.1,
       "limit_amount": 10.0,
-      "tracking_error": 1.43,
+      "tracking_error": 1.44,
       "history": [
         {
           "date": "2026-09-17",
@@ -6744,11 +6744,11 @@
       "nav": 1.6202,
       "nav_date": "2026-09-17",
       "nav_chg": 1.47,
-      "return_1m": -4.71,
-      "return_6m": 12.1,
-      "return_1y": 9.9,
-      "return_3y": 59.99,
-      "return_since": 59.67,
+      "return_1m": -3.14,
+      "return_6m": 13.36,
+      "return_1y": 11.75,
+      "return_3y": 62.18,
+      "return_since": 62.02,
       "inception_date": "2023-08-01",
       "fund_size": 16.33,
       "fund_size_date": "2026-06-30",
@@ -6758,7 +6758,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.15,
       "limit_amount": 10.0,
-      "tracking_error": 1.74,
+      "tracking_error": 1.75,
       "history": [
         {
           "date": "2026-09-17",
@@ -6885,7 +6885,7 @@
       "sales_fee": 0.4,
       "fee_total": 1.05,
       "limit_amount": 10.0,
-      "tracking_error": 1.74,
+      "tracking_error": 1.76,
       "history": [
         {
           "date": "2026-09-17",
@@ -7012,7 +7012,7 @@
       "sales_fee": 0.1,
       "fee_total": 0.75,
       "limit_amount": 10.0,
-      "tracking_error": 1.74,
+      "tracking_error": 1.75,
       "history": [
         {
           "date": "2026-09-17",
@@ -7139,7 +7139,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.15,
       "limit_amount": null,
-      "tracking_error": 1.42,
+      "tracking_error": 1.43,
       "history": [
         {
           "date": "2026-09-17",
@@ -7266,7 +7266,7 @@
       "sales_fee": 0.0,
       "fee_total": 0.77,
       "limit_amount": null,
-      "tracking_error": 1.51,
+      "tracking_error": 1.52,
       "history": [
         {
           "date": "2026-09-17",
@@ -7393,7 +7393,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.25,
       "limit_amount": 100.0,
-      "tracking_error": 2.19,
+      "tracking_error": 2.18,
       "history": [
         {
           "date": "2026-09-17",
@@ -7774,7 +7774,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.3,
       "limit_amount": 100.0,
-      "tracking_error": 1.24,
+      "tracking_error": 1.25,
       "history": [
         {
           "date": "2026-09-17",
@@ -7901,7 +7901,7 @@
       "sales_fee": 0.35,
       "fee_total": 1.15,
       "limit_amount": 100.0,
-      "tracking_error": 1.24,
+      "tracking_error": 1.25,
       "history": [
         {
           "date": "2026-09-17",
@@ -8028,7 +8028,7 @@
       "sales_fee": 0.01,
       "fee_total": 0.81,
       "limit_amount": null,
-      "tracking_error": 1.24,
+      "tracking_error": 1.25,
       "history": [
         {
           "date": "2026-09-17",
@@ -8395,11 +8395,11 @@
       "nav": 1.7132,
       "nav_date": "2026-09-17",
       "nav_chg": 1.03,
-      "return_1m": -3.06,
-      "return_6m": 10.7,
-      "return_1y": 8.39,
-      "return_3y": 51.05,
-      "return_since": 69.58,
+      "return_1m": -1.59,
+      "return_6m": 11.68,
+      "return_1y": 9.62,
+      "return_3y": 52.61,
+      "return_since": 71.32,
       "inception_date": "2022-11-01",
       "fund_size": 1.32,
       "fund_size_date": "2026-06-30",
@@ -8522,11 +8522,11 @@
       "nav": 1.6937,
       "nav_date": "2026-09-17",
       "nav_chg": 1.03,
-      "return_1m": -3.08,
-      "return_6m": 10.53,
-      "return_1y": 8.06,
-      "return_3y": 49.69,
-      "return_since": 67.65,
+      "return_1m": -1.61,
+      "return_6m": 11.52,
+      "return_1y": 9.29,
+      "return_3y": 51.26,
+      "return_since": 69.37,
       "inception_date": "2022-11-01",
       "fund_size": 0.6,
       "fund_size_date": "2026-06-30",
@@ -8536,7 +8536,7 @@
       "sales_fee": 0.3,
       "fee_total": 1.05,
       "limit_amount": null,
-      "tracking_error": 1.54,
+      "tracking_error": 1.55,
       "history": [
         {
           "date": "2026-09-17",
@@ -8917,7 +8917,7 @@
       "sales_fee": 0.3,
       "fee_total": 1.5,
       "limit_amount": 100.0,
-      "tracking_error": 1.42,
+      "tracking_error": 1.43,
       "history": [
         {
           "date": "2026-09-17",
@@ -9408,14 +9408,14 @@
       "index_key": "sp500",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 0.248,
-      "nav_date": "2026-09-16",
-      "nav_chg": -0.4,
-      "return_1m": -2.59,
-      "return_6m": 12.93,
-      "return_1y": 14.55,
-      "return_3y": 62.73,
-      "return_since": 70.45,
+      "nav": 0.2507,
+      "nav_date": "2026-09-17",
+      "nav_chg": 1.09,
+      "return_1m": -1.07,
+      "return_6m": 13.85,
+      "return_1y": 15.9,
+      "return_3y": 64.39,
+      "return_since": 72.3,
       "inception_date": "2023-04-05",
       "fund_size": 53.03,
       "fund_size_date": "2026-06-30",
@@ -9425,8 +9425,13 @@
       "sales_fee": 0.0,
       "fee_total": 1.85,
       "limit_amount": null,
-      "tracking_error": 1.28,
+      "tracking_error": 1.29,
       "history": [
+        {
+          "date": "2026-09-17",
+          "status": "限大额",
+          "redeem": "开放"
+        },
         {
           "date": "2026-09-16",
           "status": "限大额",
@@ -9519,11 +9524,6 @@
         },
         {
           "date": "2026-08-21",
-          "status": "限大额",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-08-20",
           "status": "限大额",
           "redeem": "开放"
         }
@@ -9535,14 +9535,14 @@
       "index_key": "sp500",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 0.248,
-      "nav_date": "2026-09-16",
-      "nav_chg": -0.4,
-      "return_1m": -2.59,
-      "return_6m": 12.93,
-      "return_1y": 14.55,
-      "return_3y": 62.73,
-      "return_since": 70.45,
+      "nav": 0.2507,
+      "nav_date": "2026-09-17",
+      "nav_chg": 1.09,
+      "return_1m": -1.07,
+      "return_6m": 13.85,
+      "return_1y": 15.9,
+      "return_3y": 64.39,
+      "return_since": 72.3,
       "inception_date": "2023-04-05",
       "fund_size": 53.03,
       "fund_size_date": "2026-06-30",
@@ -9552,8 +9552,13 @@
       "sales_fee": 0.0,
       "fee_total": 1.85,
       "limit_amount": null,
-      "tracking_error": 1.28,
+      "tracking_error": 1.29,
       "history": [
+        {
+          "date": "2026-09-17",
+          "status": "限大额",
+          "redeem": "开放"
+        },
         {
           "date": "2026-09-16",
           "status": "限大额",
@@ -9646,11 +9651,6 @@
         },
         {
           "date": "2026-08-21",
-          "status": "限大额",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-08-20",
           "status": "限大额",
           "redeem": "开放"
         }
@@ -9806,7 +9806,7 @@
       "sales_fee": 0.35,
       "fee_total": 1.35,
       "limit_amount": 10.0,
-      "tracking_error": 1.19,
+      "tracking_error": 1.2,
       "history": [
         {
           "date": "2026-09-17",
@@ -9933,7 +9933,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.5,
       "limit_amount": null,
-      "tracking_error": 0.77,
+      "tracking_error": 0.78,
       "history": [
         {
           "date": "2026-09-17",
@@ -10812,7 +10812,7 @@
   "notify": {
     "enabled": false,
     "emails": [],
-    "last_checked": "2026-09-18 12:54:20",
+    "last_checked": "2026-09-18 19:27:00",
     "last_sent": null,
     "last_error": null,
     "last_change_count": 0
