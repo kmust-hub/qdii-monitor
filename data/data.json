@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22 18:55:08",
-  "updated_at": "2026-09-22 18:55:08",
+  "generated_at": "2026-09-23 00:52:10",
+  "updated_at": "2026-09-23 00:52:10",
   "source": "公开基金数据接口（东方财富 / 天天基金）",
   "fund_count": 80,
   "funds": [
@@ -26,7 +26,7 @@
       "custody_fee": 0.15,
       "sales_fee": 0.0,
       "fee_total": 2.15,
-      "limit_amount": 100.0,
+      "limit_amount": 10.0,
       "tracking_error": 2.19,
       "history": [
         {
@@ -153,7 +153,7 @@
       "custody_fee": 0.15,
       "sales_fee": 0.2,
       "fee_total": 0.85,
-      "limit_amount": 100.0,
+      "limit_amount": 10.0,
       "tracking_error": 2.18,
       "history": [
         {
@@ -10812,9 +10812,9 @@
   "notify": {
     "enabled": false,
     "emails": [],
-    "last_checked": "2026-09-22 18:55:08",
+    "last_checked": "2026-09-23 00:52:10",
     "last_sent": null,
     "last_error": null,
-    "last_change_count": 0
+    "last_change_count": 2
   }
 }
