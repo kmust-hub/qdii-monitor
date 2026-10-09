@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-09 18:34:21",
-  "updated_at": "2026-10-09 18:34:21",
+  "generated_at": "2026-10-09 22:58:55",
+  "updated_at": "2026-10-09 22:58:55",
   "source": "公开基金数据接口（东方财富 / 天天基金）",
   "fund_count": 80,
   "funds": [
@@ -1805,7 +1805,7 @@
       "sales_fee": 0.01,
       "fee_total": 0.66,
       "limit_amount": null,
-      "tracking_error": 1.45,
+      "tracking_error": 1.44,
       "history": [
         {
           "date": "2026-10-08",
@@ -4980,7 +4980,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.2,
       "limit_amount": null,
-      "tracking_error": 2.02,
+      "tracking_error": 2.03,
       "history": [
         {
           "date": "2026-10-08",
@@ -7901,7 +7901,7 @@
       "sales_fee": 0.35,
       "fee_total": 1.15,
       "limit_amount": 100.0,
-      "tracking_error": 1.25,
+      "tracking_error": 1.24,
       "history": [
         {
           "date": "2026-10-08",
@@ -8028,7 +8028,7 @@
       "sales_fee": 0.01,
       "fee_total": 0.81,
       "limit_amount": null,
-      "tracking_error": 1.25,
+      "tracking_error": 1.24,
       "history": [
         {
           "date": "2026-10-08",
@@ -8790,7 +8790,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.7,
       "limit_amount": null,
-      "tracking_error": 1.07,
+      "tracking_error": 1.08,
       "history": [
         {
           "date": "2026-10-08",
@@ -9044,7 +9044,7 @@
       "sales_fee": 0.3,
       "fee_total": 1.5,
       "limit_amount": null,
-      "tracking_error": 1.05,
+      "tracking_error": 1.07,
       "history": [
         {
           "date": "2026-10-08",
@@ -9679,7 +9679,7 @@
       "sales_fee": 0.0,
       "fee_total": 2.5,
       "limit_amount": 10.0,
-      "tracking_error": 1.2,
+      "tracking_error": 1.19,
       "history": [
         {
           "date": "2026-10-08",
@@ -10812,7 +10812,7 @@
   "notify": {
     "enabled": false,
     "emails": [],
-    "last_checked": "2026-10-09 18:34:21",
+    "last_checked": "2026-10-09 22:58:55",
     "last_sent": null,
     "last_error": null,
     "last_change_count": 0
