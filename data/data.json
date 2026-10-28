@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27 22:38:04",
-  "updated_at": "2026-10-27 22:38:04",
+  "generated_at": "2026-10-28 06:17:56",
+  "updated_at": "2026-10-28 06:17:56",
   "source": "公开基金数据接口（东方财富 / 天天基金）",
   "fund_count": 80,
   "funds": [
@@ -10300,7 +10300,7 @@
   "notify": {
     "enabled": false,
     "emails": [],
-    "last_checked": "2026-10-27 22:38:04",
+    "last_checked": "2026-10-28 06:17:56",
     "last_sent": null,
     "last_error": null,
     "last_change_count": 0
