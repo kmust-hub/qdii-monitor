@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16 07:20:11",
-  "updated_at": "2026-11-16 07:20:11",
+  "generated_at": "2026-11-16 22:33:26",
+  "updated_at": "2026-11-16 22:33:26",
   "source": "公开基金数据接口（东方财富 / 天天基金）",
   "fund_count": 80,
   "funds": [
@@ -10,14 +10,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 1.6094,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.51,
-      "return_6m": -3.46,
-      "return_1y": 5.35,
-      "return_3y": 54.39,
-      "return_since": 60.94,
+      "nav": 1.5904,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.18,
+      "return_1m": -8.31,
+      "return_6m": -5.53,
+      "return_1y": 6.1,
+      "return_3y": 49.7,
+      "return_since": 59.04,
       "inception_date": "2023-09-26",
       "fund_size": 14.86,
       "fund_size_date": "2026-09-30",
@@ -27,8 +27,13 @@
       "sales_fee": 0.0,
       "fee_total": 2.15,
       "limit_amount": 5.0,
-      "tracking_error": 2.2,
+      "tracking_error": 2.21,
       "history": [
+        {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
         {
           "date": "2026-11-12",
           "status": "限大额",
@@ -123,11 +128,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -137,14 +137,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 1.5984,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.52,
-      "return_6m": -3.55,
-      "return_1y": 5.15,
-      "return_3y": 53.38,
-      "return_since": 59.84,
+      "nav": 1.5795,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.18,
+      "return_1m": -8.32,
+      "return_6m": -5.62,
+      "return_1y": 5.9,
+      "return_3y": 48.71,
+      "return_since": 57.95,
       "inception_date": "2023-09-26",
       "fund_size": 6.97,
       "fund_size_date": "2026-09-30",
@@ -157,6 +157,11 @@
       "tracking_error": 2.2,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -250,11 +255,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -264,14 +264,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.9376,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.28,
-      "return_1m": -7.62,
-      "return_6m": -3.8,
-      "return_1y": 4.65,
-      "return_3y": 59.76,
-      "return_since": 93.76,
+      "nav": 1.9156,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.14,
+      "return_1m": -8.41,
+      "return_6m": -5.78,
+      "return_1y": 5.83,
+      "return_3y": 54.82,
+      "return_since": 91.56,
       "inception_date": "2022-04-13",
       "fund_size": 3.26,
       "fund_size_date": "2026-09-30",
@@ -284,6 +284,11 @@
       "tracking_error": 2.43,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -377,11 +382,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -391,14 +391,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 0.2905,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.27,
-      "return_1m": -7.31,
-      "return_6m": -1.99,
-      "return_1y": 11.69,
-      "return_3y": 74.68,
-      "return_since": 84.91,
+      "nav": 0.2872,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.14,
+      "return_1m": -8.07,
+      "return_6m": -4.07,
+      "return_1y": 12.58,
+      "return_3y": 69.34,
+      "return_since": 82.81,
       "inception_date": "2022-04-13",
       "fund_size": 3.26,
       "fund_size_date": "2026-09-30",
@@ -411,6 +411,11 @@
       "tracking_error": 1.18,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -504,11 +509,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -518,14 +518,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.9112,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.29,
-      "return_1m": -7.64,
-      "return_6m": -3.95,
-      "return_1y": 4.34,
-      "return_3y": 58.33,
-      "return_since": 91.12,
+      "nav": 1.8894,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.14,
+      "return_1m": -8.44,
+      "return_6m": -5.93,
+      "return_1y": 5.51,
+      "return_3y": 53.42,
+      "return_since": 88.94,
       "inception_date": "2022-04-13",
       "fund_size": 1.64,
       "fund_size_date": "2026-09-30",
@@ -538,6 +538,11 @@
       "tracking_error": 2.43,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -631,11 +636,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -645,14 +645,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 7.7718,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.32,
-      "return_1m": -8.0,
-      "return_6m": -5.25,
-      "return_1y": 4.06,
-      "return_3y": 60.28,
-      "return_since": 677.18,
+      "nav": 7.6748,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.25,
+      "return_1m": -8.84,
+      "return_6m": -7.41,
+      "return_1y": 4.86,
+      "return_3y": 54.95,
+      "return_since": 667.48,
       "inception_date": "2013-08-01",
       "fund_size": 63.39,
       "fund_size_date": "2026-09-30",
@@ -665,6 +665,11 @@
       "tracking_error": 0.98,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -756,11 +761,6 @@
         },
         {
           "date": "2026-10-19",
-          "status": "限大额",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
           "status": "限大额",
           "redeem": "开放"
         }
@@ -772,14 +772,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.157,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.29,
-      "return_1m": -7.81,
-      "return_6m": -3.48,
-      "return_1y": 9.73,
-      "return_3y": 71.26,
-      "return_since": 615.08,
+      "nav": 1.1429,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.22,
+      "return_1m": -8.64,
+      "return_6m": -5.64,
+      "return_1y": 10.66,
+      "return_3y": 65.61,
+      "return_since": 606.37,
       "inception_date": "2013-08-01",
       "fund_size": 63.39,
       "fund_size_date": "2026-09-30",
@@ -791,6 +791,11 @@
       "limit_amount": null,
       "tracking_error": 0.29,
       "history": [
+        {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
         {
           "date": "2026-11-12",
           "status": "暂停",
@@ -883,11 +888,6 @@
         },
         {
           "date": "2026-10-19",
-          "status": "暂停",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
           "status": "暂停",
           "redeem": "开放"
         }
@@ -899,14 +899,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.157,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.29,
-      "return_1m": -7.81,
-      "return_6m": -3.48,
-      "return_1y": 9.73,
-      "return_3y": 71.26,
-      "return_since": 615.08,
+      "nav": 1.1429,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.22,
+      "return_1m": -8.64,
+      "return_6m": -5.64,
+      "return_1y": 10.66,
+      "return_3y": 65.61,
+      "return_since": 606.37,
       "inception_date": "2013-08-01",
       "fund_size": 63.39,
       "fund_size_date": "2026-09-30",
@@ -918,6 +918,11 @@
       "limit_amount": null,
       "tracking_error": 0.29,
       "history": [
+        {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
         {
           "date": "2026-11-12",
           "status": "暂停",
@@ -1012,11 +1017,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -1026,14 +1026,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 7.6087,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.33,
-      "return_1m": -8.02,
-      "return_6m": -5.34,
-      "return_1y": 3.85,
-      "return_3y": 59.34,
-      "return_since": 92.33,
+      "nav": 7.5137,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.25,
+      "return_1m": -8.86,
+      "return_6m": -7.5,
+      "return_1y": 4.66,
+      "return_3y": 54.03,
+      "return_since": 89.93,
       "inception_date": "2022-02-21",
       "fund_size": 15.14,
       "fund_size_date": "2026-09-30",
@@ -1046,6 +1046,11 @@
       "tracking_error": 0.98,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -1139,11 +1144,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -1153,14 +1153,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 1.5748,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.29,
-      "return_6m": -3.83,
-      "return_1y": 4.71,
-      "return_3y": 50.41,
-      "return_since": 57.48,
+      "nav": 1.5561,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.19,
+      "return_1m": -8.1,
+      "return_6m": -5.92,
+      "return_1y": 5.45,
+      "return_3y": 45.76,
+      "return_since": 55.61,
       "inception_date": "2023-10-18",
       "fund_size": 8.12,
       "fund_size_date": "2026-09-30",
@@ -1173,6 +1173,11 @@
       "tracking_error": 1.61,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -1266,11 +1271,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -1280,14 +1280,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 1.5608,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.31,
-      "return_1m": -7.31,
-      "return_6m": -3.95,
-      "return_1y": 4.46,
-      "return_3y": 49.07,
-      "return_since": 56.08,
+      "nav": 1.5422,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.19,
+      "return_1m": -8.11,
+      "return_6m": -6.04,
+      "return_1y": 5.19,
+      "return_3y": 44.45,
+      "return_since": 54.22,
       "inception_date": "2023-10-18",
       "fund_size": 6.03,
       "fund_size_date": "2026-09-30",
@@ -1300,6 +1300,11 @@
       "tracking_error": 1.61,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -1393,11 +1398,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -1407,14 +1407,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 1.5724,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.3,
-      "return_6m": -3.88,
-      "return_1y": 4.61,
+      "nav": 1.5537,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.19,
+      "return_1m": -8.1,
+      "return_6m": -5.97,
+      "return_1y": 5.35,
       "return_3y": null,
-      "return_since": 20.37,
+      "return_since": 18.94,
       "inception_date": "2024-11-25",
       "fund_size": 0.62,
       "fund_size_date": "2026-09-30",
@@ -1427,6 +1427,11 @@
       "tracking_error": 1.61,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -1520,11 +1525,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -1534,14 +1534,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 2.1803,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.31,
-      "return_1m": -7.61,
-      "return_6m": -4.37,
-      "return_1y": 4.62,
-      "return_3y": 59.47,
-      "return_since": 118.03,
+      "nav": 2.1542,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.2,
+      "return_1m": -8.42,
+      "return_6m": -6.44,
+      "return_1y": 5.37,
+      "return_3y": 54.4,
+      "return_since": 115.42,
       "inception_date": "2022-11-28",
       "fund_size": 67.32,
       "fund_size_date": "2026-09-30",
@@ -1554,6 +1554,11 @@
       "tracking_error": 1.43,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -1647,11 +1652,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -1661,14 +1661,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 2.1702,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.61,
-      "return_6m": -4.42,
-      "return_1y": 4.53,
-      "return_3y": 58.83,
-      "return_since": 117.02,
+      "nav": 2.1441,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.2,
+      "return_1m": -8.43,
+      "return_6m": -6.49,
+      "return_1y": 5.26,
+      "return_3y": 53.75,
+      "return_since": 114.41,
       "inception_date": "2022-11-28",
       "fund_size": 46.49,
       "fund_size_date": "2026-09-30",
@@ -1681,6 +1681,11 @@
       "tracking_error": 1.43,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -1772,11 +1777,6 @@
         },
         {
           "date": "2026-10-19",
-          "status": "限大额",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
           "status": "限大额",
           "redeem": "开放"
         }
@@ -1788,14 +1788,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 2.1802,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.31,
-      "return_1m": -7.61,
-      "return_6m": -4.39,
-      "return_1y": 4.6,
+      "nav": 2.1541,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.2,
+      "return_1m": -8.42,
+      "return_6m": -6.46,
+      "return_1y": 5.35,
       "return_3y": null,
-      "return_since": 40.22,
+      "return_since": 38.55,
       "inception_date": "2024-03-19",
       "fund_size": 40.79,
       "fund_size_date": "2026-09-30",
@@ -1805,8 +1805,13 @@
       "sales_fee": 0.01,
       "fee_total": 0.66,
       "limit_amount": null,
-      "tracking_error": 1.43,
+      "tracking_error": 1.44,
       "history": [
+        {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
         {
           "date": "2026-11-12",
           "status": "限大额",
@@ -1899,11 +1904,6 @@
         },
         {
           "date": "2026-10-19",
-          "status": "限大额",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
           "status": "限大额",
           "redeem": "开放"
         }
@@ -1915,14 +1915,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 2.0228,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.29,
-      "return_1m": -7.45,
-      "return_6m": -3.73,
-      "return_1y": 5.85,
-      "return_3y": 62.89,
-      "return_since": 102.28,
+      "nav": 1.9989,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.18,
+      "return_1m": -8.37,
+      "return_6m": -5.82,
+      "return_1y": 6.63,
+      "return_3y": 57.78,
+      "return_since": 99.89,
       "inception_date": "2022-07-25",
       "fund_size": 14.57,
       "fund_size_date": "2026-09-30",
@@ -1932,8 +1932,13 @@
       "sales_fee": 0.0,
       "fee_total": 2.15,
       "limit_amount": null,
-      "tracking_error": 1.5,
+      "tracking_error": 1.51,
       "history": [
+        {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
         {
           "date": "2026-11-12",
           "status": "暂停",
@@ -2028,11 +2033,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -2042,14 +2042,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 0.3011,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.26,
-      "return_1m": -7.27,
-      "return_6m": -1.95,
-      "return_1y": 11.6,
-      "return_3y": 74.05,
-      "return_since": 103.31,
+      "nav": 0.2977,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.13,
+      "return_1m": -8.17,
+      "return_6m": -4.03,
+      "return_1y": 12.55,
+      "return_3y": 68.67,
+      "return_since": 101.01,
       "inception_date": "2022-07-25",
       "fund_size": 14.57,
       "fund_size_date": "2026-09-30",
@@ -2062,6 +2062,11 @@
       "tracking_error": 1.16,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -2155,11 +2160,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -2169,14 +2169,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.9952,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.28,
-      "return_1m": -7.48,
-      "return_6m": -3.87,
-      "return_1y": 5.53,
-      "return_3y": 61.52,
-      "return_since": 99.52,
+      "nav": 1.9716,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.18,
+      "return_1m": -8.4,
+      "return_6m": -5.97,
+      "return_1y": 6.31,
+      "return_3y": 56.45,
+      "return_since": 97.16,
       "inception_date": "2022-07-25",
       "fund_size": 6.69,
       "fund_size_date": "2026-09-30",
@@ -2189,6 +2189,11 @@
       "tracking_error": 1.51,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -2280,11 +2285,6 @@
         },
         {
           "date": "2026-10-19",
-          "status": "暂停",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
           "status": "暂停",
           "redeem": "开放"
         }
@@ -2296,14 +2296,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 0.297,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.27,
-      "return_1m": -7.3,
-      "return_6m": -2.08,
-      "return_1y": 11.28,
-      "return_3y": 72.57,
-      "return_since": 100.54,
+      "nav": 0.2936,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.14,
+      "return_1m": -8.19,
+      "return_6m": -4.18,
+      "return_1y": 12.19,
+      "return_3y": 67.2,
+      "return_since": 98.24,
       "inception_date": "2022-07-25",
       "fund_size": 6.69,
       "fund_size_date": "2026-09-30",
@@ -2313,8 +2313,13 @@
       "sales_fee": 0.3,
       "fee_total": 0.95,
       "limit_amount": null,
-      "tracking_error": 1.17,
+      "tracking_error": 1.18,
       "history": [
+        {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
         {
           "date": "2026-11-12",
           "status": "暂停",
@@ -2409,11 +2414,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -2423,14 +2423,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 2.0178,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.29,
-      "return_1m": -7.46,
-      "return_6m": -3.8,
-      "return_1y": 5.69,
+      "nav": 1.994,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.18,
+      "return_1m": -8.39,
+      "return_6m": -5.89,
+      "return_1y": 6.47,
       "return_3y": null,
-      "return_since": 23.48,
+      "return_since": 22.02,
       "inception_date": "2025-05-12",
       "fund_size": 1.63,
       "fund_size_date": "2026-09-30",
@@ -2443,6 +2443,11 @@
       "tracking_error": 1.51,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -2536,11 +2541,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -2550,14 +2550,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 2.0755,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.29,
-      "return_1m": -7.48,
-      "return_6m": -3.5,
-      "return_1y": 5.76,
-      "return_3y": 58.59,
-      "return_since": 107.55,
+      "nav": 2.0511,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.18,
+      "return_1m": -8.27,
+      "return_6m": -5.59,
+      "return_1y": 6.56,
+      "return_3y": 53.58,
+      "return_since": 105.11,
       "inception_date": "2022-09-14",
       "fund_size": 19.89,
       "fund_size_date": "2026-09-30",
@@ -2570,6 +2570,11 @@
       "tracking_error": 1.52,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -2663,11 +2668,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -2677,14 +2677,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 0.309,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.26,
-      "return_1m": -7.26,
-      "return_6m": -1.69,
-      "return_1y": 11.51,
-      "return_3y": 69.5,
-      "return_since": 112.96,
+      "nav": 0.3054,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.17,
+      "return_1m": -8.1,
+      "return_6m": -3.81,
+      "return_1y": 12.44,
+      "return_3y": 64.11,
+      "return_since": 110.48,
       "inception_date": "2022-09-14",
       "fund_size": 19.89,
       "fund_size_date": "2026-09-30",
@@ -2697,6 +2697,11 @@
       "tracking_error": 1.2,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -2790,11 +2795,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -2804,14 +2804,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 2.051,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.29,
-      "return_1m": -7.49,
-      "return_6m": -3.62,
-      "return_1y": 5.5,
-      "return_3y": 57.36,
-      "return_since": 105.1,
+      "nav": 2.0268,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.18,
+      "return_1m": -8.29,
+      "return_6m": -5.71,
+      "return_1y": 6.29,
+      "return_3y": 52.38,
+      "return_since": 102.68,
       "inception_date": "2022-09-14",
       "fund_size": 15.39,
       "fund_size_date": "2026-09-30",
@@ -2824,6 +2824,11 @@
       "tracking_error": 1.52,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -2917,11 +2922,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -2931,14 +2931,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 0.3053,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.26,
-      "return_1m": -7.32,
-      "return_6m": -1.83,
-      "return_1y": 11.22,
-      "return_3y": 68.12,
-      "return_since": 110.41,
+      "nav": 0.3018,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.15,
+      "return_1m": -8.1,
+      "return_6m": -3.92,
+      "return_1y": 12.15,
+      "return_3y": 62.87,
+      "return_since": 107.99,
       "inception_date": "2022-09-14",
       "fund_size": 15.39,
       "fund_size_date": "2026-09-30",
@@ -2951,6 +2951,11 @@
       "tracking_error": 1.23,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -3044,11 +3049,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -3058,14 +3058,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 2.0567,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.29,
-      "return_1m": -7.48,
-      "return_6m": -3.55,
-      "return_1y": 5.65,
+      "nav": 2.0324,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.18,
+      "return_1m": -8.28,
+      "return_6m": -5.64,
+      "return_1y": 6.44,
       "return_3y": null,
-      "return_since": 32.12,
+      "return_since": 30.56,
       "inception_date": "2024-07-18",
       "fund_size": 0.24,
       "fund_size_date": "2026-09-30",
@@ -3078,6 +3078,11 @@
       "tracking_error": 1.52,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -3171,11 +3176,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -3185,14 +3185,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 4.242,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.33,
-      "return_1m": -8.14,
-      "return_6m": -4.63,
-      "return_1y": 4.96,
-      "return_3y": -35.31,
-      "return_since": 324.2,
+      "nav": 4.188,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.27,
+      "return_1m": -9.0,
+      "return_6m": -6.83,
+      "return_1y": 5.76,
+      "return_3y": -37.47,
+      "return_since": 318.8,
       "inception_date": "2010-04-28",
       "fund_size": 28.82,
       "fund_size_date": "2026-09-30",
@@ -3205,6 +3205,11 @@
       "tracking_error": 1.11,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -3298,11 +3303,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -3312,14 +3312,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 5.9458,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.32,
-      "return_1m": -8.24,
-      "return_6m": -5.94,
-      "return_1y": 3.05,
-      "return_3y": 58.13,
-      "return_since": 494.58,
+      "nav": 5.8694,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.28,
+      "return_1m": -9.11,
+      "return_6m": -8.09,
+      "return_1y": 3.79,
+      "return_3y": 52.81,
+      "return_since": 486.94,
       "inception_date": "2014-11-12",
       "fund_size": 49.58,
       "fund_size_date": "2026-09-30",
@@ -3332,6 +3332,11 @@
       "tracking_error": 1.03,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -3425,11 +3430,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -3439,14 +3439,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 5.887,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.32,
-      "return_1m": -8.26,
-      "return_6m": -6.08,
-      "return_1y": 2.75,
-      "return_3y": 56.69,
-      "return_since": 60.93,
+      "nav": 5.8113,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.29,
+      "return_1m": -9.14,
+      "return_6m": -8.22,
+      "return_1y": 3.48,
+      "return_3y": 51.45,
+      "return_since": 58.87,
       "inception_date": "2023-06-27",
       "fund_size": 11.15,
       "fund_size_date": "2026-09-30",
@@ -3459,6 +3459,11 @@
       "tracking_error": 1.03,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -3550,11 +3555,6 @@
         },
         {
           "date": "2026-10-19",
-          "status": "限大额",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
           "status": "限大额",
           "redeem": "开放"
         }
@@ -3566,14 +3566,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.9377,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.59,
-      "return_6m": -4.27,
-      "return_1y": 4.71,
-      "return_3y": 58.46,
-      "return_since": 93.77,
+      "nav": 1.9147,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.19,
+      "return_1m": -8.39,
+      "return_6m": -6.34,
+      "return_1y": 5.48,
+      "return_3y": 53.4,
+      "return_since": 91.47,
       "inception_date": "2023-04-10",
       "fund_size": 32.44,
       "fund_size_date": "2026-09-30",
@@ -3583,8 +3583,13 @@
       "sales_fee": 0.0,
       "fee_total": 2.1,
       "limit_amount": 100.0,
-      "tracking_error": 1.51,
+      "tracking_error": 1.52,
       "history": [
+        {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
         {
           "date": "2026-11-12",
           "status": "暂停",
@@ -3679,11 +3684,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -3693,14 +3693,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.9206,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.6,
-      "return_6m": -4.37,
-      "return_1y": 4.51,
-      "return_3y": 57.23,
-      "return_since": 92.06,
+      "nav": 1.8978,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.19,
+      "return_1m": -8.4,
+      "return_6m": -6.43,
+      "return_1y": 5.28,
+      "return_3y": 52.2,
+      "return_since": 89.78,
       "inception_date": "2023-04-10",
       "fund_size": 31.7,
       "fund_size_date": "2026-09-30",
@@ -3713,6 +3713,11 @@
       "tracking_error": 1.52,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -3806,11 +3811,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -3820,14 +3820,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 1.9165,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.6,
-      "return_6m": -4.38,
-      "return_1y": 4.5,
+      "nav": 1.8937,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.19,
+      "return_1m": -8.4,
+      "return_6m": -6.45,
+      "return_1y": 5.27,
       "return_3y": null,
-      "return_since": 30.79,
+      "return_since": 29.24,
       "inception_date": "2024-10-31",
       "fund_size": 1.62,
       "fund_size_date": "2026-09-30",
@@ -3840,6 +3840,11 @@
       "tracking_error": 1.52,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -3933,11 +3938,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -3947,14 +3947,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 1.4203,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.48,
-      "return_6m": -4.0,
-      "return_1y": 4.33,
+      "nav": 1.4036,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.18,
+      "return_1m": -8.29,
+      "return_6m": -6.06,
+      "return_1y": 5.11,
       "return_3y": null,
-      "return_since": 42.03,
+      "return_since": 40.36,
       "inception_date": "2024-03-21",
       "fund_size": 14.46,
       "fund_size_date": "2026-09-30",
@@ -3967,6 +3967,11 @@
       "tracking_error": 1.74,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -4060,11 +4065,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -4074,14 +4074,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 1.4097,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.51,
-      "return_6m": -4.13,
-      "return_1y": 4.08,
+      "nav": 1.3931,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.18,
+      "return_1m": -8.31,
+      "return_6m": -6.19,
+      "return_1y": 4.85,
       "return_3y": null,
-      "return_since": 40.97,
+      "return_since": 39.31,
       "inception_date": "2024-03-21",
       "fund_size": 5.52,
       "fund_size_date": "2026-09-30",
@@ -4094,6 +4094,11 @@
       "tracking_error": 1.74,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -4187,11 +4192,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -4201,14 +4201,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 7.7008,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.32,
-      "return_1m": -8.11,
-      "return_6m": -5.53,
-      "return_1y": 3.71,
+      "nav": 7.6031,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.27,
+      "return_1m": -8.96,
+      "return_6m": -7.69,
+      "return_1y": 4.51,
       "return_3y": null,
-      "return_since": 34.07,
+      "return_since": 32.37,
       "inception_date": "2024-08-13",
       "fund_size": 24.6,
       "fund_size_date": "2026-09-30",
@@ -4221,6 +4221,11 @@
       "tracking_error": 1.01,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -4314,11 +4319,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -4328,14 +4328,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 7.7311,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.32,
-      "return_1m": -8.09,
-      "return_6m": -5.45,
-      "return_1y": 3.89,
-      "return_3y": 62.24,
-      "return_since": 673.11,
+      "nav": 7.6331,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.27,
+      "return_1m": -8.94,
+      "return_6m": -7.61,
+      "return_1y": 4.69,
+      "return_3y": 56.91,
+      "return_since": 663.31,
       "inception_date": "2012-08-14",
       "fund_size": 122.81,
       "fund_size_date": "2026-09-30",
@@ -4348,6 +4348,11 @@
       "tracking_error": 1.01,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -4441,11 +4446,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -4455,14 +4455,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 7.5931,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.32,
-      "return_1m": -8.11,
-      "return_6m": -5.53,
-      "return_1y": 3.7,
-      "return_3y": 61.3,
-      "return_since": 244.87,
+      "nav": 7.4968,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.27,
+      "return_1m": -8.96,
+      "return_6m": -7.69,
+      "return_1y": 4.5,
+      "return_3y": 56.0,
+      "return_since": 240.5,
       "inception_date": "2018-10-24",
       "fund_size": 64.63,
       "fund_size_date": "2026-09-30",
@@ -4475,6 +4475,11 @@
       "tracking_error": 1.01,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -4568,11 +4573,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -4582,14 +4582,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.1509,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.29,
-      "return_1m": -7.91,
-      "return_6m": -3.68,
-      "return_1y": 9.55,
-      "return_3y": 73.33,
-      "return_since": 404.78,
+      "nav": 1.1367,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.23,
+      "return_1m": -8.74,
+      "return_6m": -5.86,
+      "return_1y": 10.48,
+      "return_3y": 67.7,
+      "return_since": 398.55,
       "inception_date": "2015-01-15",
       "fund_size": 122.81,
       "fund_size_date": "2026-09-30",
@@ -4602,6 +4602,11 @@
       "tracking_error": 0.28,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -4695,11 +4700,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -4709,14 +4709,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.1304,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.29,
-      "return_1m": -7.92,
-      "return_6m": -3.76,
-      "return_1y": 9.34,
-      "return_3y": 72.34,
-      "return_since": 256.37,
+      "nav": 1.1164,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.24,
+      "return_1m": -8.76,
+      "return_6m": -5.93,
+      "return_1y": 10.27,
+      "return_3y": 66.73,
+      "return_since": 251.95,
       "inception_date": "2018-10-24",
       "fund_size": 64.63,
       "fund_size_date": "2026-09-30",
@@ -4729,6 +4729,11 @@
       "tracking_error": 0.28,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -4822,11 +4827,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -4836,14 +4836,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 3.2918,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.25,
-      "return_1m": -7.24,
-      "return_6m": -3.98,
-      "return_1y": 4.46,
-      "return_3y": 66.04,
-      "return_since": 229.18,
+      "nav": 3.2537,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.16,
+      "return_1m": -8.08,
+      "return_6m": -6.06,
+      "return_1y": 4.99,
+      "return_3y": 60.81,
+      "return_since": 225.37,
       "inception_date": "2010-09-13",
       "fund_size": 43.74,
       "fund_size_date": "2026-09-30",
@@ -4856,6 +4856,11 @@
       "tracking_error": 2.31,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -4949,11 +4954,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -4963,14 +4963,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 0.49,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.24,
-      "return_1m": -7.06,
-      "return_6m": -2.2,
-      "return_1y": 10.14,
-      "return_3y": 77.41,
-      "return_since": 83.45,
+      "nav": 0.4845,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.12,
+      "return_1m": -7.89,
+      "return_6m": -4.29,
+      "return_1y": 10.79,
+      "return_3y": 71.87,
+      "return_since": 81.39,
       "inception_date": "2021-09-22",
       "fund_size": 43.74,
       "fund_size_date": "2026-09-30",
@@ -4983,6 +4983,11 @@
       "tracking_error": 2.1,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -5076,11 +5081,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -5090,14 +5090,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 3.1834,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.25,
-      "return_1m": -7.27,
-      "return_6m": -4.12,
-      "return_1y": 4.15,
-      "return_3y": 64.53,
-      "return_since": 84.06,
+      "nav": 3.1466,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.16,
+      "return_1m": -8.1,
+      "return_6m": -6.19,
+      "return_1y": 4.68,
+      "return_3y": 59.35,
+      "return_since": 81.94,
       "inception_date": "2021-09-22",
       "fund_size": 23.61,
       "fund_size_date": "2026-09-30",
@@ -5110,6 +5110,11 @@
       "tracking_error": 2.31,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -5203,11 +5208,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -5217,14 +5217,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 0.4739,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.23,
-      "return_1m": -7.08,
-      "return_6m": -2.33,
-      "return_1y": 9.83,
-      "return_3y": 75.78,
-      "return_since": 77.42,
+      "nav": 0.4686,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.12,
+      "return_1m": -7.9,
+      "return_6m": -4.41,
+      "return_1y": 10.47,
+      "return_3y": 70.28,
+      "return_since": 75.44,
       "inception_date": "2021-09-22",
       "fund_size": 23.61,
       "fund_size_date": "2026-09-30",
@@ -5237,6 +5237,11 @@
       "tracking_error": 2.09,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -5330,11 +5335,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -5344,14 +5344,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 3.1986,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.25,
-      "return_1m": -7.27,
-      "return_6m": -4.11,
-      "return_1y": 4.15,
+      "nav": 3.1616,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.16,
+      "return_1m": -8.11,
+      "return_6m": -6.2,
+      "return_1y": 4.69,
       "return_3y": null,
-      "return_since": 19.04,
+      "return_since": 17.66,
       "inception_date": "2025-02-11",
       "fund_size": 1.15,
       "fund_size_date": "2026-09-30",
@@ -5364,6 +5364,11 @@
       "tracking_error": 2.31,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -5457,11 +5462,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -5471,14 +5471,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.5029,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.26,
-      "return_6m": -3.7,
-      "return_1y": 5.36,
+      "nav": 1.4855,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.16,
+      "return_1m": -8.05,
+      "return_6m": -5.75,
+      "return_1y": 6.09,
       "return_3y": null,
-      "return_since": 50.29,
+      "return_since": 48.55,
       "inception_date": "2023-11-28",
       "fund_size": 23.23,
       "fund_size_date": "2026-09-30",
@@ -5491,6 +5491,11 @@
       "tracking_error": 1.87,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -5584,11 +5589,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -5598,14 +5598,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.4854,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.29,
-      "return_6m": -3.9,
-      "return_1y": 4.93,
+      "nav": 1.4683,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.15,
+      "return_1m": -8.08,
+      "return_6m": -5.94,
+      "return_1y": 5.67,
       "return_3y": null,
-      "return_since": 48.54,
+      "return_since": 46.83,
       "inception_date": "2023-11-28",
       "fund_size": 14.46,
       "fund_size_date": "2026-09-30",
@@ -5618,6 +5618,11 @@
       "tracking_error": 1.87,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -5711,11 +5716,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -5725,14 +5725,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 1.6702,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.48,
-      "return_6m": -4.04,
-      "return_1y": 5.2,
-      "return_3y": 61.7,
-      "return_since": 67.02,
+      "nav": 1.6508,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.16,
+      "return_1m": -8.27,
+      "return_6m": -6.08,
+      "return_1y": 5.81,
+      "return_3y": 56.86,
+      "return_since": 65.08,
       "inception_date": "2023-09-24",
       "fund_size": 32.03,
       "fund_size_date": "2026-09-30",
@@ -5745,6 +5745,11 @@
       "tracking_error": 2.3,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -5838,11 +5843,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -5852,14 +5852,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 1.6538,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.51,
-      "return_6m": -4.18,
-      "return_1y": 4.89,
-      "return_3y": 60.19,
-      "return_since": 65.38,
+      "nav": 1.6346,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.16,
+      "return_1m": -8.29,
+      "return_6m": -6.22,
+      "return_1y": 5.5,
+      "return_3y": 55.39,
+      "return_since": 63.46,
       "inception_date": "2023-09-24",
       "fund_size": 11.09,
       "fund_size_date": "2026-09-30",
@@ -5872,6 +5872,11 @@
       "tracking_error": 2.29,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -5965,11 +5970,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -5979,14 +5979,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 1.7767,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.28,
-      "return_1m": -7.3,
-      "return_6m": -2.26,
-      "return_1y": 10.93,
-      "return_3y": 72.11,
-      "return_since": 77.67,
+      "nav": 1.7567,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.13,
+      "return_1m": -8.07,
+      "return_6m": -4.3,
+      "return_1y": 11.66,
+      "return_3y": 67.02,
+      "return_since": 75.67,
       "inception_date": "2023-09-24",
       "fund_size": 0.16,
       "fund_size_date": "2026-09-30",
@@ -5999,6 +5999,11 @@
       "tracking_error": 2.08,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -6092,11 +6097,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -6106,14 +6106,14 @@
       "index_key": "nasdaq100",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 1.768,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.27,
-      "return_1m": -7.31,
-      "return_6m": -2.39,
-      "return_1y": 10.61,
-      "return_3y": 71.35,
-      "return_since": 76.8,
+      "nav": 1.748,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.13,
+      "return_1m": -8.09,
+      "return_6m": -4.43,
+      "return_1y": 11.34,
+      "return_3y": 66.25,
+      "return_since": 74.8,
       "inception_date": "2023-09-24",
       "fund_size": 0.14,
       "fund_size_date": "2026-09-30",
@@ -6126,6 +6126,11 @@
       "tracking_error": 2.08,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -6217,11 +6222,6 @@
         },
         {
           "date": "2026-10-19",
-          "status": "限大额",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
           "status": "限大额",
           "redeem": "开放"
         }
@@ -6233,14 +6233,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 4.243,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.48,
-      "return_6m": -3.8,
-      "return_1y": 5.03,
-      "return_3y": 64.73,
-      "return_since": 324.26,
+      "nav": 4.1926,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.19,
+      "return_1m": -8.29,
+      "return_6m": -5.88,
+      "return_1y": 5.82,
+      "return_3y": 59.54,
+      "return_since": 319.22,
       "inception_date": "2017-06-22",
       "fund_size": 17.41,
       "fund_size_date": "2026-09-30",
@@ -6252,6 +6252,11 @@
       "limit_amount": 10.0,
       "tracking_error": 1.47,
       "history": [
+        {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
         {
           "date": "2026-11-12",
           "status": "暂停",
@@ -6344,11 +6349,6 @@
         },
         {
           "date": "2026-10-19",
-          "status": "暂停",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
           "status": "暂停",
           "redeem": "开放"
         }
@@ -6360,14 +6360,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 0.6316,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.28,
-      "return_1m": -7.29,
-      "return_6m": -2.02,
-      "return_1y": 10.75,
-      "return_3y": 75.98,
-      "return_since": 330.83,
+      "nav": 0.6243,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.16,
+      "return_1m": -8.1,
+      "return_6m": -4.09,
+      "return_1y": 11.66,
+      "return_3y": 70.48,
+      "return_since": 325.85,
       "inception_date": "2017-06-22",
       "fund_size": 17.41,
       "fund_size_date": "2026-09-30",
@@ -6380,6 +6380,11 @@
       "tracking_error": 1.14,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -6473,11 +6478,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -6487,14 +6487,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 4.1658,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.5,
-      "return_6m": -3.95,
-      "return_1y": 4.7,
-      "return_3y": 63.24,
-      "return_since": 82.1,
+      "nav": 4.1163,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.19,
+      "return_1m": -8.31,
+      "return_6m": -6.03,
+      "return_1y": 5.49,
+      "return_3y": 58.1,
+      "return_since": 79.94,
       "inception_date": "2021-07-22",
       "fund_size": 1.65,
       "fund_size_date": "2026-09-30",
@@ -6507,6 +6507,11 @@
       "tracking_error": 1.47,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -6600,11 +6605,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -6614,14 +6614,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 0.6202,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.27,
-      "return_1m": -7.31,
-      "return_6m": -2.15,
-      "return_1y": 10.41,
-      "return_3y": 74.41,
-      "return_since": 75.3,
+      "nav": 0.613,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.16,
+      "return_1m": -8.11,
+      "return_6m": -4.23,
+      "return_1y": 11.33,
+      "return_3y": 68.96,
+      "return_since": 73.26,
       "inception_date": "2021-07-22",
       "fund_size": 1.65,
       "fund_size_date": "2026-09-30",
@@ -6634,6 +6634,11 @@
       "tracking_error": 1.14,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -6725,11 +6730,6 @@
         },
         {
           "date": "2026-10-19",
-          "status": "暂停",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
           "status": "暂停",
           "redeem": "开放"
         }
@@ -6741,14 +6741,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.5454,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.47,
-      "return_6m": -5.65,
-      "return_1y": 2.81,
-      "return_3y": 52.21,
-      "return_since": 54.54,
+      "nav": 1.5273,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.17,
+      "return_1m": -8.25,
+      "return_6m": -7.69,
+      "return_1y": 3.8,
+      "return_3y": 47.32,
+      "return_since": 52.73,
       "inception_date": "2023-08-01",
       "fund_size": 20.35,
       "fund_size_date": "2026-09-30",
@@ -6758,8 +6758,13 @@
       "sales_fee": 0.0,
       "fee_total": 2.15,
       "limit_amount": 10.0,
-      "tracking_error": 1.73,
+      "tracking_error": 1.72,
       "history": [
+        {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
         {
           "date": "2026-11-12",
           "status": "暂停",
@@ -6852,11 +6857,6 @@
         },
         {
           "date": "2026-10-19",
-          "status": "暂停",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
           "status": "暂停",
           "redeem": "开放"
         }
@@ -6868,14 +6868,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.5256,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.49,
-      "return_6m": -5.83,
-      "return_1y": 2.4,
-      "return_3y": 50.42,
-      "return_since": 52.56,
+      "nav": 1.5077,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.17,
+      "return_1m": -8.29,
+      "return_6m": -7.88,
+      "return_1y": 3.39,
+      "return_3y": 45.59,
+      "return_since": 50.77,
       "inception_date": "2023-08-01",
       "fund_size": 11.58,
       "fund_size_date": "2026-09-30",
@@ -6885,8 +6885,13 @@
       "sales_fee": 0.4,
       "fee_total": 1.05,
       "limit_amount": 10.0,
-      "tracking_error": 1.73,
+      "tracking_error": 1.72,
       "history": [
+        {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
         {
           "date": "2026-11-12",
           "status": "暂停",
@@ -6979,11 +6984,6 @@
         },
         {
           "date": "2026-10-19",
-          "status": "暂停",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
           "status": "暂停",
           "redeem": "开放"
         }
@@ -6995,14 +6995,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.5419,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.3,
-      "return_1m": -7.47,
-      "return_6m": -5.69,
-      "return_1y": 2.71,
+      "nav": 1.5238,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.17,
+      "return_1m": -8.27,
+      "return_6m": -7.74,
+      "return_1y": 3.7,
       "return_3y": null,
-      "return_since": 22.31,
+      "return_since": 20.88,
       "inception_date": "2024-07-03",
       "fund_size": 4.66,
       "fund_size_date": "2026-09-30",
@@ -7012,8 +7012,13 @@
       "sales_fee": 0.1,
       "fee_total": 0.75,
       "limit_amount": 10.0,
-      "tracking_error": 1.73,
+      "tracking_error": 1.72,
       "history": [
+        {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
         {
           "date": "2026-11-12",
           "status": "暂停",
@@ -7106,11 +7111,6 @@
         },
         {
           "date": "2026-10-19",
-          "status": "暂停",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
           "status": "暂停",
           "redeem": "开放"
         }
@@ -7122,14 +7122,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.6522,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.28,
-      "return_1m": -7.27,
-      "return_6m": -3.89,
-      "return_1y": 8.42,
-      "return_3y": 62.62,
-      "return_since": 65.22,
+      "nav": 1.6334,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.14,
+      "return_1m": -8.05,
+      "return_6m": -5.93,
+      "return_1y": 9.54,
+      "return_3y": 57.45,
+      "return_since": 63.34,
       "inception_date": "2023-08-01",
       "fund_size": 0.27,
       "fund_size_date": "2026-09-30",
@@ -7139,8 +7139,13 @@
       "sales_fee": 0.0,
       "fee_total": 2.15,
       "limit_amount": null,
-      "tracking_error": 1.4,
+      "tracking_error": 1.39,
       "history": [
+        {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
         {
           "date": "2026-11-12",
           "status": "暂停",
@@ -7235,11 +7240,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -7249,14 +7249,14 @@
       "index_key": "nasdaq100",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.6624,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.28,
-      "return_1m": -7.27,
-      "return_6m": -3.29,
-      "return_1y": 9.09,
-      "return_3y": 66.24,
-      "return_since": 66.24,
+      "nav": 1.6434,
+      "nav_date": "2026-11-13",
+      "nav_chg": -1.14,
+      "return_1m": -8.06,
+      "return_6m": -5.36,
+      "return_1y": 10.21,
+      "return_3y": 64.34,
+      "return_since": 64.34,
       "inception_date": "2023-08-01",
       "fund_size": 0.0,
       "fund_size_date": "2026-09-30",
@@ -7269,6 +7269,11 @@
       "tracking_error": 1.48,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -7362,11 +7367,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -7376,14 +7376,14 @@
       "index_key": "sp500",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.6762,
-      "nav_date": "2026-11-12",
+      "nav": 1.6703,
+      "nav_date": "2026-11-13",
       "nav_chg": -0.35,
-      "return_1m": -2.91,
-      "return_6m": 1.01,
-      "return_1y": 4.64,
-      "return_3y": 51.24,
-      "return_since": 67.62,
+      "return_1m": -3.25,
+      "return_6m": 0.14,
+      "return_1y": 6.25,
+      "return_3y": 48.01,
+      "return_since": 67.03,
       "inception_date": "2023-05-09",
       "fund_size": 3.27,
       "fund_size_date": "2026-09-30",
@@ -7396,6 +7396,11 @@
       "tracking_error": 2.17,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -7489,11 +7494,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -7503,14 +7503,14 @@
       "index_key": "sp500",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 0.2513,
-      "nav_date": "2026-11-12",
+      "nav": 0.2504,
+      "nav_date": "2026-11-13",
       "nav_chg": -0.36,
-      "return_1m": -2.56,
-      "return_6m": 2.91,
-      "return_1y": 11.69,
-      "return_3y": 65.44,
-      "return_since": 72.6,
+      "return_1m": -2.91,
+      "return_6m": 1.95,
+      "return_1y": 13.05,
+      "return_3y": 61.86,
+      "return_since": 71.98,
       "inception_date": "2023-05-21",
       "fund_size": 3.27,
       "fund_size_date": "2026-09-30",
@@ -7523,6 +7523,11 @@
       "tracking_error": 0.72,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -7614,11 +7619,6 @@
         },
         {
           "date": "2026-10-19",
-          "status": "暂停",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
           "status": "暂停",
           "redeem": "开放"
         }
@@ -7630,14 +7630,14 @@
       "index_key": "sp500",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.6586,
-      "nav_date": "2026-11-12",
+      "nav": 1.6528,
+      "nav_date": "2026-11-13",
       "nav_chg": -0.35,
-      "return_1m": -2.93,
-      "return_6m": 0.85,
-      "return_1y": 4.32,
-      "return_3y": 49.88,
-      "return_since": 65.86,
+      "return_1m": -3.28,
+      "return_6m": -0.01,
+      "return_1y": 5.94,
+      "return_3y": 46.69,
+      "return_since": 65.28,
       "inception_date": "2023-05-09",
       "fund_size": 1.65,
       "fund_size_date": "2026-09-30",
@@ -7647,8 +7647,13 @@
       "sales_fee": 0.3,
       "fee_total": 1.05,
       "limit_amount": 100.0,
-      "tracking_error": 2.17,
+      "tracking_error": 2.18,
       "history": [
+        {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
         {
           "date": "2026-11-12",
           "status": "暂停",
@@ -7743,11 +7748,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -7757,14 +7757,14 @@
       "index_key": "sp500",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 5.4938,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.34,
-      "return_1m": -2.86,
-      "return_6m": 0.84,
-      "return_1y": 5.46,
-      "return_3y": 56.43,
-      "return_since": 449.38,
+      "nav": 5.4712,
+      "nav_date": "2026-11-13",
+      "nav_chg": -0.41,
+      "return_1m": -3.22,
+      "return_6m": -0.14,
+      "return_1y": 6.65,
+      "return_3y": 52.98,
+      "return_since": 447.12,
       "inception_date": "2012-06-13",
       "fund_size": 63.48,
       "fund_size_date": "2026-09-30",
@@ -7777,6 +7777,11 @@
       "tracking_error": 1.24,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -7870,11 +7875,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -7884,14 +7884,14 @@
       "index_key": "sp500",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 5.3156,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.34,
-      "return_1m": -2.89,
-      "return_6m": 0.66,
-      "return_1y": 5.09,
-      "return_3y": 54.8,
-      "return_since": 163.49,
+      "nav": 5.2937,
+      "nav_date": "2026-11-13",
+      "nav_chg": -0.41,
+      "return_1m": -3.25,
+      "return_6m": -0.32,
+      "return_1y": 6.28,
+      "return_3y": 51.38,
+      "return_since": 162.4,
       "inception_date": "2018-06-07",
       "fund_size": 12.43,
       "fund_size_date": "2026-09-30",
@@ -7904,6 +7904,11 @@
       "tracking_error": 1.24,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -7997,11 +8002,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -8011,14 +8011,14 @@
       "index_key": "sp500",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 5.4919,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.34,
-      "return_1m": -2.86,
-      "return_6m": 0.84,
-      "return_1y": 5.45,
-      "return_3y": 56.38,
-      "return_since": 55.71,
+      "nav": 5.4694,
+      "nav_date": "2026-11-13",
+      "nav_chg": -0.41,
+      "return_1m": -3.22,
+      "return_6m": -0.15,
+      "return_1y": 6.64,
+      "return_3y": 52.93,
+      "return_since": 55.07,
       "inception_date": "2023-07-05",
       "fund_size": 24.43,
       "fund_size_date": "2026-09-30",
@@ -8031,6 +8031,11 @@
       "tracking_error": 1.24,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -8124,11 +8129,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -8138,14 +8138,14 @@
       "index_key": "sp500",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 0.8178,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.33,
-      "return_1m": -2.65,
-      "return_6m": 2.71,
-      "return_1y": 11.2,
-      "return_3y": 67.14,
-      "return_since": 61.17,
+      "nav": 0.8147,
+      "nav_date": "2026-11-13",
+      "nav_chg": -0.38,
+      "return_1m": -3.02,
+      "return_6m": 1.75,
+      "return_1y": 12.54,
+      "return_3y": 63.5,
+      "return_since": 60.56,
       "inception_date": "2021-09-06",
       "fund_size": 63.48,
       "fund_size_date": "2026-09-30",
@@ -8158,6 +8158,11 @@
       "tracking_error": 0.69,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -8251,11 +8256,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -8265,14 +8265,14 @@
       "index_key": "sp500",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 0.7913,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.33,
-      "return_1m": -2.69,
-      "return_6m": 2.54,
-      "return_1y": 10.81,
-      "return_3y": 65.37,
-      "return_since": 58.17,
+      "nav": 0.7883,
+      "nav_date": "2026-11-13",
+      "nav_chg": -0.38,
+      "return_1m": -3.04,
+      "return_6m": 1.57,
+      "return_1y": 12.15,
+      "return_3y": 61.77,
+      "return_since": 57.57,
       "inception_date": "2021-09-06",
       "fund_size": 12.43,
       "fund_size_date": "2026-09-30",
@@ -8285,6 +8285,11 @@
       "tracking_error": 0.69,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -8378,11 +8383,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -8392,14 +8392,14 @@
       "index_key": "sp500",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.6947,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.35,
-      "return_1m": -2.79,
-      "return_6m": 1.12,
-      "return_1y": 6.84,
-      "return_3y": 52.4,
-      "return_since": 69.47,
+      "nav": 1.6879,
+      "nav_date": "2026-11-13",
+      "nav_chg": -0.4,
+      "return_1m": -3.16,
+      "return_6m": 0.14,
+      "return_1y": 8.06,
+      "return_3y": 49.15,
+      "return_since": 68.79,
       "inception_date": "2022-11-01",
       "fund_size": 1.27,
       "fund_size_date": "2026-09-30",
@@ -8412,6 +8412,11 @@
       "tracking_error": 1.2,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -8505,11 +8510,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -8519,14 +8519,14 @@
       "index_key": "sp500",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 1.6746,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.35,
-      "return_1m": -2.81,
-      "return_6m": 0.97,
-      "return_1y": 6.52,
-      "return_3y": 51.04,
-      "return_since": 67.46,
+      "nav": 1.6678,
+      "nav_date": "2026-11-13",
+      "nav_chg": -0.41,
+      "return_1m": -3.18,
+      "return_6m": -0.01,
+      "return_1y": 7.73,
+      "return_3y": 47.82,
+      "return_since": 66.78,
       "inception_date": "2022-11-01",
       "fund_size": 0.58,
       "fund_size_date": "2026-09-30",
@@ -8539,6 +8539,11 @@
       "tracking_error": 1.21,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -8632,11 +8637,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -8646,14 +8646,14 @@
       "index_key": "sp500",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 2.8509,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.82,
-      "return_1m": 3.04,
-      "return_6m": 6.44,
-      "return_1y": 10.19,
-      "return_3y": 31.56,
-      "return_since": 185.09,
+      "nav": 2.8552,
+      "nav_date": "2026-11-13",
+      "nav_chg": 0.15,
+      "return_1m": 3.16,
+      "return_6m": 7.01,
+      "return_1y": 11.51,
+      "return_3y": 28.27,
+      "return_since": 185.52,
       "inception_date": "2011-03-22",
       "fund_size": 8.83,
       "fund_size_date": "2026-09-30",
@@ -8666,6 +8666,11 @@
       "tracking_error": 1.45,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -8759,11 +8764,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -8773,14 +8773,14 @@
       "index_key": "sp500",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 0.4244,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.79,
-      "return_1m": 3.24,
-      "return_6m": 8.43,
-      "return_1y": 16.2,
-      "return_3y": 40.53,
-      "return_since": 21.26,
+      "nav": 0.4252,
+      "nav_date": "2026-11-13",
+      "nav_chg": 0.19,
+      "return_1m": 3.38,
+      "return_6m": 9.05,
+      "return_1y": 17.67,
+      "return_3y": 37.16,
+      "return_since": 21.49,
       "inception_date": "2021-09-06",
       "fund_size": 8.83,
       "fund_size_date": "2026-09-30",
@@ -8793,6 +8793,11 @@
       "tracking_error": 1.12,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -8886,11 +8891,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -8900,14 +8900,14 @@
       "index_key": "sp500",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 2.833,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.83,
-      "return_1m": 3.01,
-      "return_6m": 6.27,
-      "return_1y": 9.86,
-      "return_3y": 30.49,
-      "return_since": 22.96,
+      "nav": 2.8373,
+      "nav_date": "2026-11-13",
+      "nav_chg": 0.15,
+      "return_1m": 3.13,
+      "return_6m": 6.84,
+      "return_1y": 11.17,
+      "return_3y": 27.23,
+      "return_since": 23.15,
       "inception_date": "2023-08-29",
       "fund_size": 2.81,
       "fund_size_date": "2026-09-30",
@@ -8920,6 +8920,11 @@
       "tracking_error": 1.45,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -9013,11 +9018,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -9027,14 +9027,14 @@
       "index_key": "sp500",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 0.4217,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.8,
-      "return_1m": 3.21,
-      "return_6m": 8.24,
-      "return_1y": 15.84,
-      "return_3y": 39.64,
-      "return_since": 31.37,
+      "nav": 0.4225,
+      "nav_date": "2026-11-13",
+      "nav_chg": 0.19,
+      "return_1m": 3.35,
+      "return_6m": 8.86,
+      "return_1y": 17.31,
+      "return_3y": 35.85,
+      "return_since": 31.62,
       "inception_date": "2023-08-29",
       "fund_size": 2.81,
       "fund_size_date": "2026-09-30",
@@ -9047,6 +9047,11 @@
       "tracking_error": 1.13,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -9140,11 +9145,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -9154,14 +9154,14 @@
       "index_key": "sp500",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 1.6736,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.33,
-      "return_1m": -2.91,
-      "return_6m": 0.89,
-      "return_1y": 5.78,
-      "return_3y": 54.19,
-      "return_since": 67.36,
+      "nav": 1.6669,
+      "nav_date": "2026-11-13",
+      "nav_chg": -0.4,
+      "return_1m": -3.27,
+      "return_6m": -0.13,
+      "return_1y": 6.8,
+      "return_3y": 51.01,
+      "return_since": 66.69,
       "inception_date": "2023-04-05",
       "fund_size": 59.31,
       "fund_size_date": "2026-09-30",
@@ -9174,6 +9174,11 @@
       "tracking_error": 1.57,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -9267,11 +9272,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -9281,14 +9281,14 @@
       "index_key": "sp500",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 1.6568,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.34,
-      "return_1m": -2.93,
-      "return_6m": 0.73,
-      "return_1y": 5.47,
-      "return_3y": 52.76,
-      "return_since": 49.29,
+      "nav": 1.6501,
+      "nav_date": "2026-11-13",
+      "nav_chg": -0.4,
+      "return_1m": -3.31,
+      "return_6m": -0.28,
+      "return_1y": 6.49,
+      "return_3y": 49.59,
+      "return_since": 48.68,
       "inception_date": "2023-08-31",
       "fund_size": 19.88,
       "fund_size_date": "2026-09-30",
@@ -9301,6 +9301,11 @@
       "tracking_error": 1.58,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "限大额",
           "redeem": "开放"
@@ -9392,11 +9397,6 @@
         },
         {
           "date": "2026-10-19",
-          "status": "限大额",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
           "status": "限大额",
           "redeem": "开放"
         }
@@ -9408,14 +9408,14 @@
       "index_key": "sp500",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 0.2491,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.32,
-      "return_1m": -2.73,
-      "return_6m": 2.76,
-      "return_1y": 11.5,
-      "return_3y": 64.75,
-      "return_since": 71.2,
+      "nav": 0.2482,
+      "nav_date": "2026-11-13",
+      "nav_chg": -0.36,
+      "return_1m": -3.08,
+      "return_6m": 1.76,
+      "return_1y": 12.72,
+      "return_3y": 61.38,
+      "return_since": 70.58,
       "inception_date": "2023-04-05",
       "fund_size": 59.31,
       "fund_size_date": "2026-09-30",
@@ -9427,6 +9427,11 @@
       "limit_amount": null,
       "tracking_error": 1.22,
       "history": [
+        {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
         {
           "date": "2026-11-12",
           "status": "限大额",
@@ -9519,11 +9524,6 @@
         },
         {
           "date": "2026-10-19",
-          "status": "限大额",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
           "status": "限大额",
           "redeem": "开放"
         }
@@ -9535,14 +9535,14 @@
       "index_key": "sp500",
       "status": "限大额",
       "redeem": "开放",
-      "nav": 0.2491,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.32,
-      "return_1m": -2.73,
-      "return_6m": 2.76,
-      "return_1y": 11.5,
-      "return_3y": 64.75,
-      "return_since": 71.2,
+      "nav": 0.2482,
+      "nav_date": "2026-11-13",
+      "nav_chg": -0.36,
+      "return_1m": -3.08,
+      "return_6m": 1.76,
+      "return_1y": 12.72,
+      "return_3y": 61.38,
+      "return_since": 70.58,
       "inception_date": "2023-04-05",
       "fund_size": 59.31,
       "fund_size_date": "2026-09-30",
@@ -9554,6 +9554,11 @@
       "limit_amount": null,
       "tracking_error": 1.22,
       "history": [
+        {
+          "date": "2026-11-13",
+          "status": "限大额",
+          "redeem": "开放"
+        },
         {
           "date": "2026-11-12",
           "status": "限大额",
@@ -9648,11 +9653,6 @@
           "date": "2026-10-19",
           "status": "限大额",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "限大额",
-          "redeem": "开放"
         }
       ]
     },
@@ -9662,14 +9662,14 @@
       "index_key": "sp500",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 3.0919,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.36,
-      "return_1m": -2.82,
-      "return_6m": 0.64,
-      "return_1y": 5.18,
-      "return_3y": 56.29,
-      "return_since": 209.19,
+      "nav": 3.0794,
+      "nav_date": "2026-11-13",
+      "nav_chg": -0.4,
+      "return_1m": -3.17,
+      "return_6m": -0.33,
+      "return_1y": 6.36,
+      "return_3y": 52.83,
+      "return_since": 207.94,
       "inception_date": "2016-12-01",
       "fund_size": 15.26,
       "fund_size_date": "2026-09-30",
@@ -9682,6 +9682,11 @@
       "tracking_error": 1.19,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -9775,11 +9780,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -9789,14 +9789,14 @@
       "index_key": "sp500",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 3.036,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.36,
-      "return_1m": -2.85,
-      "return_6m": 0.47,
-      "return_1y": 4.81,
-      "return_3y": 54.76,
-      "return_since": 77.38,
+      "nav": 3.0237,
+      "nav_date": "2026-11-13",
+      "nav_chg": -0.41,
+      "return_1m": -3.2,
+      "return_6m": -0.5,
+      "return_1y": 5.98,
+      "return_3y": 51.33,
+      "return_since": 76.66,
       "inception_date": "2021-07-18",
       "fund_size": 1.15,
       "fund_size_date": "2026-09-30",
@@ -9809,6 +9809,11 @@
       "tracking_error": 1.19,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -9902,11 +9907,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -9916,14 +9916,14 @@
       "index_key": "sp500",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 0.4603,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.32,
-      "return_1m": -2.62,
-      "return_6m": 2.52,
-      "return_1y": 10.92,
-      "return_3y": 67.02,
-      "return_since": 216.57,
+      "nav": 0.4586,
+      "nav_date": "2026-11-13",
+      "nav_chg": -0.37,
+      "return_1m": -2.96,
+      "return_6m": 1.57,
+      "return_1y": 12.24,
+      "return_3y": 63.32,
+      "return_since": 215.41,
       "inception_date": "2016-12-01",
       "fund_size": 15.26,
       "fund_size_date": "2026-09-30",
@@ -9936,6 +9936,11 @@
       "tracking_error": 0.8,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -10029,11 +10034,6 @@
           "date": "2026-10-19",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -10043,14 +10043,14 @@
       "index_key": "sp500",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 0.452,
-      "nav_date": "2026-11-12",
-      "nav_chg": -0.33,
-      "return_1m": -2.65,
-      "return_6m": 2.36,
-      "return_1y": 10.54,
-      "return_3y": 65.39,
-      "return_since": 70.89,
+      "nav": 0.4503,
+      "nav_date": "2026-11-13",
+      "nav_chg": -0.38,
+      "return_1m": -2.99,
+      "return_6m": 1.4,
+      "return_1y": 11.85,
+      "return_3y": 61.75,
+      "return_since": 70.25,
       "inception_date": "2021-07-18",
       "fund_size": 1.15,
       "fund_size_date": "2026-09-30",
@@ -10063,6 +10063,11 @@
       "tracking_error": 0.78,
       "history": [
         {
+          "date": "2026-11-13",
+          "status": "暂停",
+          "redeem": "开放"
+        },
+        {
           "date": "2026-11-12",
           "status": "暂停",
           "redeem": "开放"
@@ -10154,11 +10159,6 @@
         },
         {
           "date": "2026-10-19",
-          "status": "暂停",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-16",
           "status": "暂停",
           "redeem": "开放"
         }
@@ -10188,7 +10188,7 @@
   "notify": {
     "enabled": false,
     "emails": [],
-    "last_checked": "2026-11-16 07:20:11",
+    "last_checked": "2026-11-16 22:33:26",
     "last_sent": null,
     "last_error": null,
     "last_change_count": 0
