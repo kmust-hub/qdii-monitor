@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19 21:14:52",
-  "updated_at": "2026-11-19 21:14:52",
+  "generated_at": "2026-11-20 07:58:27",
+  "updated_at": "2026-11-20 07:58:27",
   "source": "公开基金数据接口（东方财富 / 天天基金）",
   "fund_count": 80,
   "funds": [
@@ -3324,10 +3324,10 @@
       "fund_size": 49.58,
       "fund_size_date": "2026-09-30",
       "buy_fee": 1.5,
-      "mgmt_fee": 0.8,
-      "custody_fee": 0.2,
-      "sales_fee": 0.0,
-      "fee_total": 2.5,
+      "mgmt_fee": null,
+      "custody_fee": null,
+      "sales_fee": null,
+      "fee_total": 1.5,
       "limit_amount": 10.0,
       "tracking_error": 1.02,
       "history": [
@@ -7503,14 +7503,14 @@
       "index_key": "sp500",
       "status": "暂停",
       "redeem": "开放",
-      "nav": 0.2429,
-      "nav_date": "2026-11-18",
-      "nav_chg": -0.21,
-      "return_1m": -4.11,
-      "return_6m": -0.57,
-      "return_1y": 11.58,
-      "return_3y": 56.31,
-      "return_since": 66.83,
+      "nav": 0.2383,
+      "nav_date": "2026-11-19",
+      "nav_chg": -1.89,
+      "return_1m": -6.29,
+      "return_6m": -1.81,
+      "return_1y": 9.11,
+      "return_3y": 52.17,
+      "return_since": 63.67,
       "inception_date": "2023-05-21",
       "fund_size": 3.27,
       "fund_size_date": "2026-09-30",
@@ -7522,6 +7522,11 @@
       "limit_amount": null,
       "tracking_error": 0.72,
       "history": [
+        {
+          "date": "2026-11-19",
+          "status": "暂停",
+          "redeem": "开放"
+        },
         {
           "date": "2026-11-18",
           "status": "暂停",
@@ -7614,11 +7619,6 @@
         },
         {
           "date": "2026-10-23",
-          "status": "暂停",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-22",
           "status": "暂停",
           "redeem": "开放"
         }
@@ -8277,10 +8277,10 @@
       "fund_size": 12.43,
       "fund_size_date": "2026-09-30",
       "buy_fee": 0.0,
-      "mgmt_fee": null,
-      "custody_fee": null,
-      "sales_fee": null,
-      "fee_total": 0.0,
+      "mgmt_fee": 0.6,
+      "custody_fee": 0.2,
+      "sales_fee": 0.35,
+      "fee_total": 1.15,
       "limit_amount": null,
       "tracking_error": 0.69,
       "history": [
@@ -10171,7 +10171,7 @@
   "notify": {
     "enabled": false,
     "emails": [],
-    "last_checked": "2026-11-19 21:14:52",
+    "last_checked": "2026-11-20 07:58:27",
     "last_sent": null,
     "last_error": null,
     "last_change_count": 0
