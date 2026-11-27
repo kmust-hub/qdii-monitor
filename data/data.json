@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26 21:56:30",
-  "updated_at": "2026-11-26 21:56:30",
+  "generated_at": "2026-11-27 09:02:48",
+  "updated_at": "2026-11-27 09:02:48",
   "source": "公开基金数据接口（东方财富 / 天天基金）",
   "fund_count": 80,
   "funds": [
@@ -263,10 +263,10 @@
       "name": "华夏纳斯达克100ETF发起式联接(QDII)A",
       "index_key": "nasdaq100",
       "status": "暂停",
-      "redeem": "开放",
-      "nav": 1.7939,
-      "nav_date": "2026-11-25",
-      "nav_chg": -0.47,
+      "redeem": "暂停",
+      "nav": 1.7907,
+      "nav_date": "2026-11-26",
+      "nav_chg": -0.18,
       "return_1m": -9.42,
       "return_6m": -12.05,
       "return_1y": -0.97,
@@ -284,6 +284,11 @@
       "tracking_error": 2.51,
       "history": [
         {
+          "date": "2026-11-26",
+          "status": "暂停",
+          "redeem": "暂停"
+        },
+        {
           "date": "2026-11-25",
           "status": "暂停",
           "redeem": "开放"
@@ -377,11 +382,6 @@
           "date": "2026-10-30",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-29",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -390,10 +390,10 @@
       "name": "华夏纳斯达克100ETF发起式联接(QDII)A美元现汇",
       "index_key": "nasdaq100",
       "status": "暂停",
-      "redeem": "开放",
-      "nav": 0.2688,
-      "nav_date": "2026-11-25",
-      "nav_chg": -0.63,
+      "redeem": "暂停",
+      "nav": 0.2689,
+      "nav_date": "2026-11-26",
+      "nav_chg": 0.04,
       "return_1m": -9.46,
       "return_6m": -10.58,
       "return_1y": 5.29,
@@ -411,6 +411,11 @@
       "tracking_error": 1.28,
       "history": [
         {
+          "date": "2026-11-26",
+          "status": "暂停",
+          "redeem": "暂停"
+        },
+        {
           "date": "2026-11-25",
           "status": "暂停",
           "redeem": "开放"
@@ -504,11 +509,6 @@
           "date": "2026-10-30",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-29",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -517,10 +517,10 @@
       "name": "华夏纳斯达克100ETF发起式联接(QDII)C",
       "index_key": "nasdaq100",
       "status": "暂停",
-      "redeem": "开放",
-      "nav": 1.7692,
-      "nav_date": "2026-11-25",
-      "nav_chg": -0.47,
+      "redeem": "暂停",
+      "nav": 1.7661,
+      "nav_date": "2026-11-26",
+      "nav_chg": -0.18,
       "return_1m": -9.44,
       "return_6m": -12.18,
       "return_1y": -1.27,
@@ -538,6 +538,11 @@
       "tracking_error": 2.51,
       "history": [
         {
+          "date": "2026-11-26",
+          "status": "暂停",
+          "redeem": "暂停"
+        },
+        {
           "date": "2026-11-25",
           "status": "暂停",
           "redeem": "开放"
@@ -629,11 +634,6 @@
         },
         {
           "date": "2026-10-30",
-          "status": "暂停",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-29",
           "status": "暂停",
           "redeem": "开放"
         }
@@ -1914,10 +1914,10 @@
       "name": "博时纳斯达克100ETF发起式联接(QDII)A人民币",
       "index_key": "nasdaq100",
       "status": "暂停",
-      "redeem": "开放",
-      "nav": 1.8691,
-      "nav_date": "2026-11-25",
-      "nav_chg": -0.61,
+      "redeem": "暂停",
+      "nav": 1.8698,
+      "nav_date": "2026-11-26",
+      "nav_chg": 0.04,
       "return_1m": -9.62,
       "return_6m": -12.16,
       "return_1y": -0.37,
@@ -1935,6 +1935,11 @@
       "tracking_error": 1.58,
       "history": [
         {
+          "date": "2026-11-26",
+          "status": "暂停",
+          "redeem": "暂停"
+        },
+        {
           "date": "2026-11-25",
           "status": "暂停",
           "redeem": "开放"
@@ -2028,11 +2033,6 @@
           "date": "2026-10-30",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-29",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -2041,10 +2041,10 @@
       "name": "博时纳斯达克100ETF发起式联接(QDII)A美元现汇",
       "index_key": "nasdaq100",
       "status": "暂停",
-      "redeem": "开放",
-      "nav": 0.2786,
-      "nav_date": "2026-11-25",
-      "nav_chg": -0.57,
+      "redeem": "暂停",
+      "nav": 0.2787,
+      "nav_date": "2026-11-26",
+      "nav_chg": 0.04,
       "return_1m": -9.49,
       "return_6m": -10.56,
       "return_1y": 5.17,
@@ -2062,6 +2062,11 @@
       "tracking_error": 1.28,
       "history": [
         {
+          "date": "2026-11-26",
+          "status": "暂停",
+          "redeem": "暂停"
+        },
+        {
           "date": "2026-11-25",
           "status": "暂停",
           "redeem": "开放"
@@ -2155,11 +2160,6 @@
           "date": "2026-10-30",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-29",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -2168,10 +2168,10 @@
       "name": "博时纳斯达克100ETF发起式联接(QDII)C人民币",
       "index_key": "nasdaq100",
       "status": "暂停",
-      "redeem": "开放",
-      "nav": 1.8434,
-      "nav_date": "2026-11-25",
-      "nav_chg": -0.6,
+      "redeem": "暂停",
+      "nav": 1.8441,
+      "nav_date": "2026-11-26",
+      "nav_chg": 0.04,
       "return_1m": -9.65,
       "return_6m": -12.3,
       "return_1y": -0.67,
@@ -2189,6 +2189,11 @@
       "tracking_error": 1.58,
       "history": [
         {
+          "date": "2026-11-26",
+          "status": "暂停",
+          "redeem": "暂停"
+        },
+        {
           "date": "2026-11-25",
           "status": "暂停",
           "redeem": "开放"
@@ -2282,11 +2287,6 @@
           "date": "2026-10-30",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-29",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -2295,10 +2295,10 @@
       "name": "博时纳斯达克100ETF发起式联接(QDII)C美元现汇",
       "index_key": "nasdaq100",
       "status": "暂停",
-      "redeem": "开放",
+      "redeem": "暂停",
       "nav": 0.2748,
-      "nav_date": "2026-11-25",
-      "nav_chg": -0.54,
+      "nav_date": "2026-11-26",
+      "nav_chg": 0.0,
       "return_1m": -9.52,
       "return_6m": -10.69,
       "return_1y": 4.89,
@@ -2316,6 +2316,11 @@
       "tracking_error": 1.29,
       "history": [
         {
+          "date": "2026-11-26",
+          "status": "暂停",
+          "redeem": "暂停"
+        },
+        {
           "date": "2026-11-25",
           "status": "暂停",
           "redeem": "开放"
@@ -2409,11 +2414,6 @@
           "date": "2026-10-30",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-29",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -2422,15 +2422,15 @@
       "name": "博时纳斯达克100ETF发起式联接(QDII)I人民币",
       "index_key": "nasdaq100",
       "status": "暂停",
-      "redeem": "开放",
-      "nav": 1.8644,
-      "nav_date": "2026-11-25",
-      "nav_chg": -0.61,
-      "return_1m": -9.63,
-      "return_6m": -12.23,
-      "return_1y": -0.52,
+      "redeem": "暂停",
+      "nav": 1.8651,
+      "nav_date": "2026-11-26",
+      "nav_chg": 0.04,
+      "return_1m": -10.5,
+      "return_6m": -13.61,
+      "return_1y": -1.26,
       "return_3y": null,
-      "return_since": 14.09,
+      "return_since": 14.14,
       "inception_date": "2025-05-12",
       "fund_size": 1.63,
       "fund_size_date": "2026-09-30",
@@ -2443,6 +2443,11 @@
       "tracking_error": 1.58,
       "history": [
         {
+          "date": "2026-11-26",
+          "status": "暂停",
+          "redeem": "暂停"
+        },
+        {
           "date": "2026-11-25",
           "status": "暂停",
           "redeem": "开放"
@@ -2534,11 +2539,6 @@
         },
         {
           "date": "2026-10-30",
-          "status": "暂停",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-29",
           "status": "暂停",
           "redeem": "开放"
         }
@@ -3328,7 +3328,7 @@
       "custody_fee": 0.2,
       "sales_fee": 0.0,
       "fee_total": 2.5,
-      "limit_amount": 10.0,
+      "limit_amount": 5.0,
       "tracking_error": 1.03,
       "history": [
         {
@@ -3455,7 +3455,7 @@
       "custody_fee": 0.2,
       "sales_fee": 0.3,
       "fee_total": 1.3,
-      "limit_amount": 10.0,
+      "limit_amount": 5.0,
       "tracking_error": 1.03,
       "history": [
         {
@@ -7375,10 +7375,10 @@
       "name": "华夏标普500ETF发起式联接(QDII)A(人民币)",
       "index_key": "sp500",
       "status": "暂停",
-      "redeem": "开放",
-      "nav": 1.5921,
-      "nav_date": "2026-11-25",
-      "nav_chg": -0.11,
+      "redeem": "暂停",
+      "nav": 1.5893,
+      "nav_date": "2026-11-26",
+      "nav_chg": -0.18,
       "return_1m": -5.34,
       "return_6m": -4.83,
       "return_1y": 0.93,
@@ -7396,6 +7396,11 @@
       "tracking_error": 2.21,
       "history": [
         {
+          "date": "2026-11-26",
+          "status": "暂停",
+          "redeem": "暂停"
+        },
+        {
           "date": "2026-11-25",
           "status": "暂停",
           "redeem": "开放"
@@ -7489,11 +7494,6 @@
           "date": "2026-10-30",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-29",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -7502,14 +7502,14 @@
       "name": "华夏标普500ETF发起式联接(QDII)A(美元)",
       "index_key": "sp500",
       "status": "暂停",
-      "redeem": "开放",
+      "redeem": "暂停",
       "nav": 0.2386,
-      "nav_date": "2026-11-25",
-      "nav_chg": -0.25,
-      "return_1m": -5.36,
-      "return_6m": -3.24,
-      "return_1y": 7.33,
-      "return_3y": 51.97,
+      "nav_date": "2026-11-26",
+      "nav_chg": 0.0,
+      "return_1m": -5.99,
+      "return_6m": -3.79,
+      "return_1y": 6.61,
+      "return_3y": 52.27,
       "return_since": 63.87,
       "inception_date": "2023-05-21",
       "fund_size": 3.27,
@@ -7523,6 +7523,11 @@
       "tracking_error": 0.77,
       "history": [
         {
+          "date": "2026-11-26",
+          "status": "暂停",
+          "redeem": "暂停"
+        },
+        {
           "date": "2026-11-25",
           "status": "暂停",
           "redeem": "开放"
@@ -7616,11 +7621,6 @@
           "date": "2026-10-30",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-29",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -7629,10 +7629,10 @@
       "name": "华夏标普500ETF发起式联接(QDII)C",
       "index_key": "sp500",
       "status": "暂停",
-      "redeem": "开放",
-      "nav": 1.5753,
-      "nav_date": "2026-11-25",
-      "nav_chg": -0.11,
+      "redeem": "暂停",
+      "nav": 1.5725,
+      "nav_date": "2026-11-26",
+      "nav_chg": -0.18,
       "return_1m": -5.37,
       "return_6m": -4.98,
       "return_1y": 0.63,
@@ -7650,6 +7650,11 @@
       "tracking_error": 2.22,
       "history": [
         {
+          "date": "2026-11-26",
+          "status": "暂停",
+          "redeem": "暂停"
+        },
+        {
           "date": "2026-11-25",
           "status": "暂停",
           "redeem": "开放"
@@ -7743,11 +7748,6 @@
           "date": "2026-10-30",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-29",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -7756,10 +7756,10 @@
       "name": "博时标普500ETF联接A",
       "index_key": "sp500",
       "status": "暂停",
-      "redeem": "开放",
-      "nav": 5.2058,
-      "nav_date": "2026-11-25",
-      "nav_chg": -0.28,
+      "redeem": "暂停",
+      "nav": 5.207,
+      "nav_date": "2026-11-26",
+      "nav_chg": 0.02,
       "return_1m": -5.59,
       "return_6m": -5.2,
       "return_1y": 1.06,
@@ -7777,6 +7777,11 @@
       "tracking_error": 1.27,
       "history": [
         {
+          "date": "2026-11-26",
+          "status": "暂停",
+          "redeem": "暂停"
+        },
+        {
           "date": "2026-11-25",
           "status": "暂停",
           "redeem": "开放"
@@ -7870,11 +7875,6 @@
           "date": "2026-10-30",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-29",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -7883,10 +7883,10 @@
       "name": "博时标普500ETF联接C",
       "index_key": "sp500",
       "status": "暂停",
-      "redeem": "开放",
-      "nav": 5.0363,
-      "nav_date": "2026-11-25",
-      "nav_chg": -0.28,
+      "redeem": "暂停",
+      "nav": 5.0374,
+      "nav_date": "2026-11-26",
+      "nav_chg": 0.02,
       "return_1m": -5.62,
       "return_6m": -5.37,
       "return_1y": 0.71,
@@ -7904,6 +7904,11 @@
       "tracking_error": 1.27,
       "history": [
         {
+          "date": "2026-11-26",
+          "status": "暂停",
+          "redeem": "暂停"
+        },
+        {
           "date": "2026-11-25",
           "status": "暂停",
           "redeem": "开放"
@@ -7997,11 +8002,6 @@
           "date": "2026-10-30",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-29",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -8010,10 +8010,10 @@
       "name": "博时标普500ETF联接E(人民币)",
       "index_key": "sp500",
       "status": "暂停",
-      "redeem": "开放",
-      "nav": 5.204,
-      "nav_date": "2026-11-25",
-      "nav_chg": -0.28,
+      "redeem": "暂停",
+      "nav": 5.2052,
+      "nav_date": "2026-11-26",
+      "nav_chg": 0.02,
       "return_1m": -5.59,
       "return_6m": -5.21,
       "return_1y": 1.05,
@@ -8031,6 +8031,11 @@
       "tracking_error": 1.27,
       "history": [
         {
+          "date": "2026-11-26",
+          "status": "暂停",
+          "redeem": "暂停"
+        },
+        {
           "date": "2026-11-25",
           "status": "暂停",
           "redeem": "开放"
@@ -8124,11 +8129,6 @@
           "date": "2026-10-30",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-29",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -8137,10 +8137,10 @@
       "name": "博时标普500ETF联接美元汇(QDII)A",
       "index_key": "sp500",
       "status": "暂停",
-      "redeem": "开放",
-      "nav": 0.776,
-      "nav_date": "2026-11-25",
-      "nav_chg": -0.24,
+      "redeem": "暂停",
+      "nav": 0.7761,
+      "nav_date": "2026-11-26",
+      "nav_chg": 0.01,
       "return_1m": -5.46,
       "return_6m": -3.46,
       "return_1y": 6.7,
@@ -8158,6 +8158,11 @@
       "tracking_error": 0.75,
       "history": [
         {
+          "date": "2026-11-26",
+          "status": "暂停",
+          "redeem": "暂停"
+        },
+        {
           "date": "2026-11-25",
           "status": "暂停",
           "redeem": "开放"
@@ -8251,11 +8256,6 @@
           "date": "2026-10-30",
           "status": "暂停",
           "redeem": "开放"
-        },
-        {
-          "date": "2026-10-29",
-          "status": "暂停",
-          "redeem": "开放"
         }
       ]
     },
@@ -8264,10 +8264,10 @@
       "name": "博时标普500ETF联接美元汇(QDII)C",
       "index_key": "sp500",
       "status": "暂停",
-      "redeem": "开放",
-      "nav": 0.7507,
-      "nav_date": "2026-11-25",
-      "nav_chg": -0.25,
+      "redeem": "暂停",
+      "nav": 0.7508,
+      "nav_date": "2026-11-26",
+      "nav_chg": 0.01,
       "return_1m": -5.49,
       "return_6m": -3.63,
       "return_1y": 6.32,
@@ -8285,6 +8285,11 @@
       "tracking_error": 0.76,
       "history": [
         {
+          "date": "2026-11-26",
+          "status": "暂停",
+          "redeem": "暂停"
+        },
+        {
           "date": "2026-11-25",
           "status": "暂停",
           "redeem": "开放"
@@ -8376,11 +8381,6 @@
         },
         {
           "date": "2026-10-30",
-          "status": "暂停",
-          "redeem": "开放"
-        },
-        {
-          "date": "2026-10-29",
           "status": "暂停",
           "redeem": "开放"
         }
@@ -10165,15 +10165,144 @@
       ]
     }
   ],
-  "recent_changes": [],
+  "recent_changes": [
+    {
+      "date": "2026-11-26",
+      "field": "redeem",
+      "old_val": "开放",
+      "new_val": "暂停",
+      "code": "050025",
+      "name": "博时标普500ETF联接A"
+    },
+    {
+      "date": "2026-11-26",
+      "field": "redeem",
+      "old_val": "开放",
+      "new_val": "暂停",
+      "code": "024237",
+      "name": "博时纳斯达克100ETF发起式联接(QDII)I人民币"
+    },
+    {
+      "date": "2026-11-26",
+      "field": "redeem",
+      "old_val": "开放",
+      "new_val": "暂停",
+      "code": "018738",
+      "name": "博时标普500ETF联接E(人民币)"
+    },
+    {
+      "date": "2026-11-26",
+      "field": "redeem",
+      "old_val": "开放",
+      "new_val": "暂停",
+      "code": "018066",
+      "name": "华夏标普500ETF发起式联接(QDII)A(美元)"
+    },
+    {
+      "date": "2026-11-26",
+      "field": "redeem",
+      "old_val": "开放",
+      "new_val": "暂停",
+      "code": "018065",
+      "name": "华夏标普500ETF发起式联接(QDII)C"
+    },
+    {
+      "date": "2026-11-26",
+      "field": "redeem",
+      "old_val": "开放",
+      "new_val": "暂停",
+      "code": "018064",
+      "name": "华夏标普500ETF发起式联接(QDII)A(人民币)"
+    },
+    {
+      "date": "2026-11-26",
+      "field": "redeem",
+      "old_val": "开放",
+      "new_val": "暂停",
+      "code": "016058",
+      "name": "博时纳斯达克100ETF发起式联接(QDII)C美元现汇"
+    },
+    {
+      "date": "2026-11-26",
+      "field": "redeem",
+      "old_val": "开放",
+      "new_val": "暂停",
+      "code": "016057",
+      "name": "博时纳斯达克100ETF发起式联接(QDII)C人民币"
+    },
+    {
+      "date": "2026-11-26",
+      "field": "redeem",
+      "old_val": "开放",
+      "new_val": "暂停",
+      "code": "016056",
+      "name": "博时纳斯达克100ETF发起式联接(QDII)A美元现汇"
+    },
+    {
+      "date": "2026-11-26",
+      "field": "redeem",
+      "old_val": "开放",
+      "new_val": "暂停",
+      "code": "016055",
+      "name": "博时纳斯达克100ETF发起式联接(QDII)A人民币"
+    },
+    {
+      "date": "2026-11-26",
+      "field": "redeem",
+      "old_val": "开放",
+      "new_val": "暂停",
+      "code": "015518",
+      "name": "华夏纳斯达克100ETF发起式联接(QDII)A美元现汇"
+    },
+    {
+      "date": "2026-11-26",
+      "field": "redeem",
+      "old_val": "开放",
+      "new_val": "暂停",
+      "code": "015300",
+      "name": "华夏纳斯达克100ETF发起式联接(QDII)C"
+    },
+    {
+      "date": "2026-11-26",
+      "field": "redeem",
+      "old_val": "开放",
+      "new_val": "暂停",
+      "code": "015299",
+      "name": "华夏纳斯达克100ETF发起式联接(QDII)A"
+    },
+    {
+      "date": "2026-11-26",
+      "field": "redeem",
+      "old_val": "开放",
+      "new_val": "暂停",
+      "code": "013499",
+      "name": "博时标普500ETF联接美元汇(QDII)C"
+    },
+    {
+      "date": "2026-11-26",
+      "field": "redeem",
+      "old_val": "开放",
+      "new_val": "暂停",
+      "code": "013425",
+      "name": "博时标普500ETF联接美元汇(QDII)A"
+    },
+    {
+      "date": "2026-11-26",
+      "field": "redeem",
+      "old_val": "开放",
+      "new_val": "暂停",
+      "code": "006075",
+      "name": "博时标普500ETF联接C"
+    }
+  ],
   "refresh_ms": 21600000,
   "refresh_label": "每6小时更新",
   "notify": {
     "enabled": false,
     "emails": [],
-    "last_checked": "2026-11-26 21:56:30",
+    "last_checked": "2026-11-27 09:02:48",
     "last_sent": null,
     "last_error": null,
-    "last_change_count": 0
+    "last_change_count": 18
   }
 }
